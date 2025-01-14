@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
+import '../../assets/styles/teams.css';
 
 const Teams = () => {
   const [teams, setTeams] = useState([]);
@@ -17,16 +19,36 @@ const Teams = () => {
     fetchTeams();
   }, []);
 
+  const groupedTeams = teams.reduce((acc, team) => {
+    const conference = team.conference;
+    if (!acc[conference]) {
+      acc[conference] = [];
+    }
+    acc[conference].push(team);
+    return acc;
+  }, {});
+
   return (
-    <div>
-      <h1>Teams</h1>
-      <ul>
-        {teams.map((team) => (
-          <li key={team.id}>
-            {team.university} - {team.varsity_name} ({team.city}, {team.province})
-          </li>
-        ))}
-      </ul>
+    <div className="teams-container">
+      {Object.entries(groupedTeams).map(([conference, conferenceTeams]) => (
+        <div key={conference} className="conference-section">
+          <h2>{conference}</h2>
+          <div className="teams-grid">
+            {conferenceTeams.map((team) => (
+              <Link 
+                to={`/team/${team.id}`} 
+                key={team.id} 
+                className="team-card"
+              >
+                <h3>{team.varsity_name}</h3>
+                <p>{team.university}</p>
+                <p>{team.city}, {team.province}</p>
+                {team.division && <p>Division: {team.division}</p>}
+              </Link>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

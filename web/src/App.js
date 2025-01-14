@@ -1,17 +1,23 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Teams from './components/pages/teams';
+import Header from './components/common/Header';
+import Teams from './components/pages/Teams';
+import TeamDetails from './components/pages/TeamDetails';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>U Sports Basketball</h1>
-      </header>
-      <main>
-        <Teams />
-      </main>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Teams />} />
+            <Route path="/team/:id" element={<TeamDetails />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
 
