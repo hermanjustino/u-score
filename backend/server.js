@@ -21,11 +21,26 @@ const pool = new Pool({
 // Endpoint to get teams data
 app.get('/api/teams', async (req, res) => {
   try {
-    const result = await pool.query('SELECT * FROM teams');
+    const { gender } = req.query;
+    console.log('Request gender:', gender); // Debug log
+
+    if (!gender) {
+      return res.status(400).json({ message: 'Gender parameter is required' });
+    }
+
+    const query = {
+      text: 'SELECT * FROM teams WHERE gender = $1 ORDER BY conference, university',
+      values: [gender],
+    };
+
+    console.log('Executing query:', query); // Debug log
+    const result = await pool.query(query);
+    console.log(`Found ${result.rows.length} teams`); // Debug log
+
     res.json(result.rows);
   } catch (err) {
-    console.error(err.message);
-    res.status(500).send('Server error');
+    console.error('Database error:', err);
+    res.status(500).json({ error: err.message });
   }
 });
 
@@ -33,7 +48,10 @@ app.get('/api/teams', async (req, res) => {
 app.get('/api/teams/:id', async (req, res) => {
   try {
     const { id } = req.params;
-    const result = await pool.query('SELECT * FROM teams WHERE id = $1', [id]);
+    const result = await pool.query(
+      'SELECT * FROM teams WHERE id = $1',
+      [id]
+    );
     
     if (result.rows.length === 0) {
       return res.status(404).json({ message: 'Team not found' });
@@ -41,11 +59,7 @@ app.get('/api/teams/:id', async (req, res) => {
     
     res.json(result.rows[0]);
   } catch (err) {
-    console.error(err.message);
-    res.status(500).send('Server error');
+    console.error('Database error:', err);
+    res.status(500).json({ error: err.message });
   }
-});
-
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
 });

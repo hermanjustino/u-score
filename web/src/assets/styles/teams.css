@@ -26,3 +26,30 @@
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }
+
+  .teams-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .conference-select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    min-width: 200px;
+  }
+  
+  .conference-select:hover {
+    border-color: #999;
+  }
+  
+  .conference-select:focus {
+    outline: none;
+    border-color: #282c34;
+    box-shadow: 0 0 0 2px rgba(40, 44, 52, 0.2);
+  }

@@ -1,11 +1,33 @@
 .team-details {
-    padding: 20px;
+    padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
   }
   
+  .team-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
   .team-info {
     background: #f5f5f5;
-    padding: 20px;
+    padding: 2rem;
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .info-row {
+    display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    width: 150px;
+  }
+  
+  .info-value {
+    flex: 1;
   }
