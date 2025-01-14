@@ -39,7 +39,7 @@ if response.status_code == 200:
     cursor = conn.cursor()
 
     # Truncate the teams table to delete all existing data (optional, if you want to clear the table first)
-    cursor.execute('TRUNCATE TABLE teams RESTART IDENTITY CASCADE')
+    # cursor.execute('TRUNCATE TABLE teams RESTART IDENTITY CASCADE')
 
     # Iterate over the <h3> elements and find corresponding tables
     for heading in conference_headings:

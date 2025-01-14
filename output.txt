@@ -1,0 +1,63 @@
+Found headings for ID Atlantic_University_Sport: [<h3 id="Atlantic_University_Sport">Atlantic University Sport</h3>]
+Found headings for ID Canada_West_Universities_Athletic_Association: [<h3 id="Canada_West_Universities_Athletic_Association">Canada West Universities Athletic Association</h3>]
+Found headings for ID Ontario_University_Athletics: [<h3 id="Ontario_University_Athletics">Ontario University Athletics</h3>]
+Found headings for ID Réseau_du_sport_étudiant_du_Québec: [<h3 id="Réseau_du_sport_étudiant_du_Québec"><span id="R.C3.A9seau_du_sport_.C3.A9tudiant_du_Qu.C3.A9bec"></span>Réseau du sport étudiant du Québec</h3>]
+Conference Headings: [<h3 id="Atlantic_University_Sport">Atlantic University Sport</h3>, <h3 id="Canada_West_Universities_Athletic_Association">Canada West Universities Athletic Association</h3>, <h3 id="Ontario_University_Athletics">Ontario University Athletics</h3>, <h3 id="Réseau_du_sport_étudiant_du_Québec"><span id="R.C3.A9seau_du_sport_.C3.A9tudiant_du_Qu.C3.A9bec"></span>Réseau du sport étudiant du Québec</h3>]
+Processing conference: Atlantic University Sport
+Next sibling: style, class: None
+Next sibling: div, class: ['hatnote', 'navigation-not-searchable']
+Next sibling: table, class: ['wikitable', 'sortable']
+Found table
+University: Acadia University, Varsity Name: Axewomen, City: Wolfville, Annapolis Valley, Province: NS, Founded: 1838, Arena: , Capacity: None, Conference: Atlantic University Sport
+University: Cape Breton University, Varsity Name: Capers, City: Sydney, Nova Scotia, Province: NS, Founded: 1951, Arena: , Capacity: None, Conference: Atlantic University Sport
+University: Dalhousie University, Varsity Name: Tigers, City: Halifax, Province: NS, Founded: 1818, Arena: Dalhousie Memorial Arena, Capacity: 1280, Conference: Atlantic University Sport
+University: Memorial University of Newfoundland, Varsity Name: Sea-Hawks, City: Saint John's, Province: NL, Founded: 1925, Arena: , Capacity: None, Conference: Atlantic University Sport
+University: University of Prince Edward Island, Varsity Name: Panthers, City: Charlottetown, Province: PEI, Founded: 1969, Arena: MacLauchlan Arena, Capacity: None, Conference: Atlantic University Sport
+University: Saint Mary's University, Varsity Name: Huskies, City: Halifax, Province: NS, Founded: 1802, Arena: Alumni Arena, Capacity: 1000, Conference: Atlantic University Sport
+University: St. Francis Xavier University, Varsity Name: X-Women, City: Antigonish, Province: NS, Founded: 1853, Arena: Charles V. Keating Centre, Capacity: 1500, Conference: Atlantic University Sport
+University: University of New Brunswick, Varsity Name: Reds, City: Fredericton, Province: NB, Founded: 1785, Arena: Aitken University Centre, Capacity: 3278, Conference: Atlantic University Sport
+Processing conference: Canada West Universities Athletic Association
+Next sibling: link, class: None
+Next sibling: div, class: ['hatnote', 'navigation-not-searchable']
+Next sibling: table, class: ['wikitable', 'sortable']
+Found table
+University: University of Alberta, Varsity Name: Pandas, City: Edmonton, Province: AB, Founded: 1908, Arena: Clare Drake Arena, Capacity: 3000, Conference: Canada West Universities Athletic Association
+University: Brandon University, Varsity Name: Bobcats, City: Brandon, Province: MB, Founded: 1889, Arena: , Capacity: None, Conference: Canada West Universities Athletic Association
+University: University of British Columbia, Varsity Name: Thunderbirds, City: Vancouver, Province: BC, Founded: 1906, Arena: Doug Mitchell Thunderbird Sports Centre, Capacity: 5054, Conference: Canada West Universities Athletic Association
+University: University of Calgary, Varsity Name: Dinos, City: Calgary, Province: AB, Founded: 1966, Arena: Father David Bauer Olympic Arena, Capacity: 1750, Conference: Canada West Universities Athletic Association
+University: University of the Fraser Valley, Varsity Name: Cascades, City: Abbotsford, Agassiz, Chilliwack, Hope & Mission, British Columbia, Province: BC, Founded: 1974, Arena: , Capacity: None, Conference: Canada West Universities Athletic Association
+University: University of Lethbridge, Varsity Name: Horns, City: Lethbridge, Province: AB, Founded: 1967, Arena: 1st Choice Savings Centre for Sport & Wellness, Capacity: 2000, Conference: Canada West Universities Athletic Association
+University: MacEwan University, Varsity Name: Griffins, City: Edmonton, Province: AB, Founded: 1971, Arena: Downtown Community Arena, Capacity: 1000, Conference: Canada West Universities Athletic Association
+University: University of Manitoba, Varsity Name: Bisons, City: Winnipeg, Province: MB, Founded: 1877, Arena: Max Bell Centre, Capacity: 2121, Conference: Canada West Universities Athletic Association
+University: Mount Royal University, Varsity Name: Cougars, City: Calgary, Province: AB, Founded: 1931, Arena: Flames Community Arenas, Capacity: 500, Conference: Canada West Universities Athletic Association
+University: University of Northern British Columbia, Varsity Name: Timberwolves, City: Prince George, Province: BC, Founded: 1990, Arena: , Capacity: None, Conference: Canada West Universities Athletic Association
+University: University of British Columbia (Okanagan Campus), Varsity Name: Heat, City: Kelowna, Province: BC, Founded: , Arena: , Capacity: None, Conference: Canada West Universities Athletic Association
+University: University of Regina, Varsity Name: Cougars, City: Regina, Province: SK, Founded: 1974, Arena: The Co-Operators Centre, Capacity: 1300, Conference: Canada West Universities Athletic Association
+University: University of Saskatchewan, Varsity Name: Huskies, City: Saskatoon, Province: SK, Founded: 1907, Arena: Merlis Belsher Place, Capacity: 2300, Conference: Canada West Universities Athletic Association
+University: Thompson Rivers University, Varsity Name: WolfPack, City: Kamloops, Province: BC, Founded: 1970, Arena: Tournament Capital Centre, Capacity: None, Conference: Canada West Universities Athletic Association
+University: Trinity Western University, Varsity Name: Spartans, City: Langley, Province: BC, Founded: 1962, Arena: Langley Events Centre, Capacity: 5300, Conference: Canada West Universities Athletic Association
+University: University of Victoria, Varsity Name: Vikes, City: Victoria, Province: BC, Founded: 1963, Arena: , Capacity: None, Conference: Canada West Universities Athletic Association
+University: University of Winnipeg, Varsity Name: Wesmen, City: Winnipeg, Province: MB, Founded: 1871, Arena: , Capacity: None, Conference: Canada West Universities Athletic Association
+Processing conference: Ontario University Athletics
+Next sibling: link, class: None
+Next sibling: div, class: ['hatnote', 'navigation-not-searchable']
+Next sibling: div, class: ['mw-heading', 'mw-heading4']
+Next sibling: table, class: ['wikitable', 'sortable']
+Found table
+University: Carleton University, Varsity Name: Ravens, City: Ottawa, Province: ON, Founded: 1952, Arena: , Capacity: None, Conference: Ontario University Athletics
+University: Laurentian University, Varsity Name: Laurentian Voyageurs, City: Sudbury, Province: ON, Founded: 1960, Arena: Countryside Arena, Capacity: None, Conference: Ontario University Athletics
+University: Nipissing University, Varsity Name: Lakers, City: North Bay, Province: ON, Founded: 1992, Arena: North Bay Memorial Gardens, Capacity: 4246, Conference: Ontario University Athletics
+University: University of Ontario Institute of Technology, Varsity Name: Ridgebacks, City: Oshawa, Province: ON, Founded: 2002, Arena: Campus Ice Centre, Capacity: 800, Conference: Ontario University Athletics
+University: University of Ottawa, Varsity Name: Gee-Gees, City: Ottawa, Province: ON, Founded: 1894, Arena: Sport Complex Arena, Capacity: 850, Conference: Ontario University Athletics
+University: Queen's University, Varsity Name: Gaels, City: Kingston, Province: ON, Founded: 1841, Arena: Kingston Memorial Centre, Capacity: 3300, Conference: Ontario University Athletics
+Processing conference: Réseau du sport étudiant du Québec
+Next sibling: link, class: None
+Next sibling: div, class: ['hatnote', 'navigation-not-searchable']
+Next sibling: table, class: ['wikitable', 'sortable']
+Found table
+University: Bishop's University, Varsity Name: Gaiters, City: Sherbrooke, Province: QC, Founded: 1843, Arena: Jane & Eric Molson Arena, Capacity: 800, Conference: Réseau du sport étudiant du Québec
+University: Concordia University, Varsity Name: Stingers, City: Montreal, Province: QC, Founded: 1896, Arena: Ed Meagher Arena, Capacity: None, Conference: Réseau du sport étudiant du Québec
+University: Université Laval, Varsity Name: Rouge et Or, City: Laval, Province: QC, Founded: 1663, Arena: , Capacity: None, Conference: Réseau du sport étudiant du Québec
+University: McGill University, Varsity Name: Martlets, City: Montreal, Province: QC, Founded: 1821, Arena: , Capacity: None, Conference: Réseau du sport étudiant du Québec
+University: Université du Québec à Montréal, Varsity Name: Citadins, City: Montreal, Province: QC, Founded: 1969, Arena: , Capacity: None, Conference: Réseau du sport étudiant du Québec
+Teams data has been written to the PostgreSQL database

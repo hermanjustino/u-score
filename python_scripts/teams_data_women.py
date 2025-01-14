@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import psycopg2
 
-# URL of the Wikipedia page for U Sports women's basketball
+# URL of the Wikipedia page for U Sports men's basketball
 url = 'https://en.wikipedia.org/wiki/U_Sports_women%27s_basketball'  # Replace with the correct URL for women's basketball
 
 # Send a GET request to the URL
@@ -15,6 +15,7 @@ if response.status_code == 200:
 
     # List of possible IDs to look for
     possible_ids = ['Atlantic_University_Sport', 'Canada_West_Universities_Athletic_Association', 'Ontario_University_Athletics', 'Réseau_du_sport_étudiant_du_Québec']
+    possible_ids_division = ['East_Division', 'West_Division', 'Central_Division']
 
     # Find all <h3> elements with the possible IDs
     conference_headings = []
@@ -27,7 +28,7 @@ if response.status_code == 200:
         conference_headings.extend(found_headings)
 
     # Debugging: Print all found conference headings
-    # print(f'Conference Headings: {conference_headings}')
+    print(f'Conference Headings: {conference_headings}')
 
     # Connect to PostgreSQL database
     conn = psycopg2.connect(
