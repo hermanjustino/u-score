@@ -1,0 +1,74 @@
+.standings-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.standings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.conference-select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.conference-section {
+  margin-bottom: 3rem;
+}
+
+.division-section {
+  margin-bottom: 2rem;
+}
+
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.standings-table th,
+.standings-table td {
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.team-column {
+  text-align: left;
+  min-width: 200px;
+}
+
+.team-name {
+  font-weight: bold;
+  display: block;
+}
+
+.university-name {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .standings-container {
+    padding: 1rem;
+  }
+  
+  .standings-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

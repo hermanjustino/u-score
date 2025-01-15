@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../../assets/styles/header.css';
 
 const Header = () => {
+  const [activeGender, setActiveGender] = useState('women');
+
+  const menuItems = [
+    { path: 'teams', label: 'Teams' },
+    { path: 'scores', label: 'Scores' },
+    { path: 'schedule', label: 'Schedule' },
+    { path: 'standings', label: 'Standings' },
+    { path: 'stats', label: 'Stats' },
+    { path: 'rankings', label: 'Rankings' }
+  ];
+
   return (
     <header className="header">
       <div className="header-container">
@@ -10,28 +21,26 @@ const Header = () => {
         
         <nav className="nav-menu">
           <ul className="nav-links">
-            <li className="dropdown">
-              <Link to="/teams/men">Men</Link>
-              <ul className="dropdown-content">
-                <li><Link to="/teams/men">Teams</Link></li>
-                <li><Link to="/scores/men">Scores</Link></li>
-                <li><Link to="/schedule/men">Schedule</Link></li>
-                <li><Link to="/standings/men">Standings</Link></li>
-                <li><Link to="/stats/men">Stats</Link></li>
-                <li><Link to="/rankings/men">Rankings</Link></li>
-              </ul>
-            </li>
-            <li className="dropdown">
-              <Link to="/teams/women">Women</Link>
-              <ul className="dropdown-content">
-                <li><Link to="/teams/women">Teams</Link></li>
-                <li><Link to="/scores/women">Scores</Link></li>
-                <li><Link to="/schedule/women">Schedule</Link></li>
-                <li><Link to="/standings/women">Standings</Link></li>
-                <li><Link to="/stats/women">Stats</Link></li>
-                <li><Link to="/rankings/women">Rankings</Link></li>
-              </ul>
-            </li>
+            {['men', 'women'].map((gender) => (
+              <li key={gender} className="dropdown">
+                <Link 
+                  to={`/teams/${gender}`} 
+                  onClick={() => setActiveGender(gender)}
+                  className={activeGender === gender ? 'active' : ''}
+                >
+                  {gender.charAt(0).toUpperCase() + gender.slice(1)}
+                </Link>
+                <ul className="dropdown-content">
+                  {menuItems.map((item) => (
+                    <li key={item.path}>
+                      <Link to={`/${item.path}/${gender}`}>
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
           </ul>
         </nav>
       </div>
