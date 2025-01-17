@@ -72,3 +72,13 @@
     gap: 1rem;
   }
 }
+
+.team-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.team-link:hover {
+  color: #0066cc;
+}

@@ -2,6 +2,9 @@ const express = require('express');
 const cors = require('cors');
 const { Pool } = require('pg');
 const { getStandings } = require('./db/helpers/get_standings_helper');
+const { getSchedule } = require('./db/helpers/get_schedule_helper');
+const { getAllGames } = require('./db/helpers/get_games_helper');
+const { getScores } = require('./db/helpers/get_scores_helper');
 
 const app = express();
 const port = 5001;
@@ -84,6 +87,44 @@ app.get('/api/standings/:gender', async (req, res) => {
   } catch (err) {
     console.error('Error:', err);
     res.status(500).json({ error: 'Server error' });
+  }
+});
+
+
+// Get Team Schedule
+app.get('/api/teams/:id/schedule', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const result = await getSchedule(pool, id);
+    res.json(result.rows);
+  } catch (err) {
+    console.error('Error:', err);
+    res.status(500).json({ error: 'Failed to fetch schedule' });
+  }
+});
+
+// Get all games in the schedule page
+app.get('/api/games/:gender', async (req, res) => {
+  try {
+    const { gender } = req.params;
+    const result = await getAllGames(pool, gender);
+    res.json(result.rows);
+  } catch (err) {
+    console.error('Error:', err);
+    res.status(500).json({ error: 'Failed to fetch games' });
+  }
+});
+
+// Get Scores (Completed Games)
+app.get('/api/scores/:gender', async (req, res) => {
+  try {
+    const { gender } = req.params;
+    console.log('Fetching scores for gender:', gender);
+    const result = await getScores(pool, gender);
+    res.json(result.rows);
+  } catch (err) {
+    console.error('Error:', err);
+    res.status(500).json({ error: 'Failed to fetch scores' });
   }
 });
 

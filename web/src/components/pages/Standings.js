@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import '../../assets/styles/standings.css';
 
@@ -18,15 +18,17 @@ const StandingsTable = ({ teams }) => (
     </thead>
     <tbody>
       {teams.map((team) => {
-        const winPct = team.games_played ? 
+        const winPct = team.games_played ?
           ((team.wins / team.games_played) * 100).toFixed(1) : '0.0';
         const pointDiff = team.points_for - team.points_against;
-        
+
         return (
           <tr key={team.id}>
             <td className="team-column">
-              <span className="team-name">{team.varsity_name}</span>
-              <span className="university-name">{team.university}</span>
+              <Link to={`/team/${team.id}`} className="team-link">
+                <span className="team-name">{team.varsity_name}</span>
+                <span className="university-name">{team.university}</span>
+              </Link>
             </td>
             <td>{team.wins}</td>
             <td>{team.losses}</td>
@@ -61,9 +63,9 @@ const Standings = () => {
   }, [gender]);
 
   const conferences = ['All', ...new Set(standings.map(team => team.conference))];
-  
-  const filteredStandings = selectedConference === 'All' 
-    ? standings 
+
+  const filteredStandings = selectedConference === 'All'
+    ? standings
     : standings.filter(team => team.conference === selectedConference);
 
   const groupedStandings = filteredStandings.reduce((acc, team) => {
@@ -89,8 +91,8 @@ const Standings = () => {
     <div className="standings-container">
       <div className="standings-header">
         <h1>{gender.charAt(0).toUpperCase() + gender.slice(1)}'s Standings</h1>
-        <select 
-          value={selectedConference} 
+        <select
+          value={selectedConference}
           onChange={(e) => setSelectedConference(e.target.value)}
           className="conference-select"
         >

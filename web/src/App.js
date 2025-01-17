@@ -6,6 +6,8 @@ import Home from './components/pages/Home';
 import Teams from './components/pages/Teams';
 import TeamDetails from './components/pages/TeamDetails';
 import Standings from './components/pages/Standings';
+import SchedulePage from './components/pages/SchedulePage';
+import ScoresPage from './components/pages/ScoresPage';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             <Route path="/teams/:gender" element={<Teams />} />
             <Route path="/team/:id" element={<TeamDetails />} />
             <Route path="/standings/:gender" element={<Standings />} />
+            <Route path="/schedule/:gender" element={<SchedulePage />} />
+            <Route path="/scores/:gender" element={<ScoresPage />} />
           </Routes>
         </main>
       </div>
