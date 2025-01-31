@@ -8,6 +8,7 @@ import TeamDetails from './components/pages/TeamDetails';
 import Standings from './components/pages/Standings';
 import SchedulePage from './components/pages/SchedulePage';
 import ScoresPage from './components/pages/ScoresPage';
+import LogoUpload from './components/admin/LogoUpload';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/standings/:gender" element={<Standings />} />
             <Route path="/schedule/:gender" element={<SchedulePage />} />
             <Route path="/scores/:gender" element={<ScoresPage />} />
+            <Route path="/teams/:id/logo" element={<LogoUpload />} />
           </Routes>
         </main>
       </div>

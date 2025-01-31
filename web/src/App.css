@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
 }
 
 .main-content {
-  margin-top: 80px; /* Adjust based on header height */
+  margin-top: 80px;
   padding: 20px;
+  background-color: #121212;
 }
 
 .App-logo {

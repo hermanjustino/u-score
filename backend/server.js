@@ -128,6 +128,47 @@ app.get('/api/scores/:gender', async (req, res) => {
   }
 });
 
+// Logo Upload
+const multer = require('multer');
+const upload = multer();
+
+// Logo Upload endpoint
+app.post('/api/teams/:id/logo', upload.single('logo'), async (req, res) => {
+  try {
+    const { id } = req.params;
+    
+    if (!req.file) {
+      return res.status(400).json({ error: 'No file uploaded' });
+    }
+
+    // Log file info
+    console.log('File info:', {
+      originalname: req.file.originalname,
+      mimetype: req.file.mimetype,
+      size: req.file.size
+    });
+
+    // Update team with logo
+    const result = await pool.query(
+      'UPDATE teams SET logo = $1 WHERE id = $2 RETURNING id',
+      [req.file.buffer, id]
+    );
+
+    if (result.rowCount === 0) {
+      return res.status(404).json({ error: 'Team not found' });
+    }
+
+    res.json({ 
+      message: 'Logo uploaded successfully',
+      teamId: id
+    });
+
+  } catch (err) {
+    console.error('Upload error:', err);
+    res.status(500).json({ error: 'Upload failed' });
+  }
+});
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);

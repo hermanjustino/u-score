@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 import axios from 'axios';
 import '../../assets/styles/teams.css';
+import TeamCard from './TeamCard';
 
 const Teams = () => {
   const [teams, setTeams] = useState([]);
@@ -76,16 +77,7 @@ const Teams = () => {
           <h2>{conference}</h2>
           <div className="teams-grid">
             {conferenceTeams.map((team) => (
-              <Link 
-                to={`/team/${team.id}`} 
-                key={team.id} 
-                className="team-card"
-              >
-                <h3>{team.varsity_name}</h3>
-                <p>{team.university}</p>
-                <p>{team.city}, {team.province}</p>
-                {team.division && <p>Division: {team.division}</p>}
-              </Link>
+              <TeamCard key={team.id} team={team} />
             ))}
           </div>
         </div>

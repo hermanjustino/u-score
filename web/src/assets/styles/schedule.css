@@ -11,10 +11,11 @@
   }
   
   .game-card {
-    background: white;
-    border: 1px solid #ddd;
+    background: #2a2a2a;
+    border: 1px solid #333;
     border-radius: 8px;
     padding: 1rem;
+    color: white;
   }
   
   .game-date {
@@ -32,6 +33,15 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .team a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .team a:hover {
+    color: #61dafb;
+  }
   
   .score {
     font-weight: bold;
@@ -40,5 +50,5 @@
   .game-info {
     margin-top: 0.5rem;
     font-size: 0.9em;
-    color: #666;
+    color: #aaa;
   }

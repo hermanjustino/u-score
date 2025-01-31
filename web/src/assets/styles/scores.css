@@ -21,11 +21,12 @@
   }
   
   .score-card {
-    background: white;
-    border: 1px solid #ddd;
+    background: #2a2a2a;
+    border: 1px solid #333;
     border-radius: 8px;
     padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    color: white;
   }
   
   .game-header {
@@ -39,13 +40,13 @@
   }
   
   .game-type.conference {
-    background: #e3f2fd;
-    color: #1976d2;
+    background: #1976d2;
+    color: white;
   }
   
   .game-type.non-conference {
-    background: #fafafa;
-    color: #757575;
+    background: #424242;
+    color: white;
   }
   
   .team {
