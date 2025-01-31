@@ -39,6 +39,29 @@
   border-bottom: 1px solid #ddd;
 }
 
+.standings-table th {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.standings-table th span {
+  position: absolute;
+  margin-left: 5px;
+}
+
+.standings-table th:hover {
+  background-color: #333;
+}
+
+.sort-asc::after {
+  content: '▲';
+}
+
+.sort-desc::after {
+  content: '▼';
+}
+
 .team-column {
   text-align: left;
   min-width: 200px;
