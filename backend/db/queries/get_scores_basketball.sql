@@ -7,6 +7,7 @@ SELECT
   g.away_team_score,
   g.is_conference_game,
   g.status,
+  g.is_exhibition,
   ht.varsity_name as home_team,
   at.varsity_name as away_team,
   ht.university as home_university,

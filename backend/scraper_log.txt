@@ -1,0 +1,1509 @@
+Starting schedule scraping...
+Found 1314 games in the feed
+Found 92 teams in database
+Sample item: Canisius, Carleton, 79-66
+Description: Men's Basketball on Jul 30, 2023 at 1:00 PM: Canisius, Carleton, Exhibition -  NCAA Division !, Final, 79-66
+Skipping game, couldn't find team: Canisius or Carleton
+  - Home team "Canisius" maps to ID: null
+  - Away team "Carleton" maps to ID: 74
+Sample item: Canisius, Concordia, 91-63
+Description: Men's Basketball on Jul 31, 2023 at 7:00 PM: Canisius, Concordia, Exhibition - NCAA Division I, Final, 91-63
+Skipping game, couldn't find team: Canisius or Concordia
+  - Home team "Canisius" maps to ID: null
+  - Away team "Concordia" maps to ID: 93
+Sample item: Boise State, Trinity Western, 134-70
+Description: Men's Basketball on Jul 31, 2023 at 7:30 PM: Boise State, Trinity Western, Exhibition: NCAA Division I, Final, 134-70
+Skipping game, couldn't find team: Boise State or Trinity Western
+  - Home team "Boise State" maps to ID: null
+  - Away team "Trinity Western" maps to ID: 60
+Sample item: Canisius, UQAM, 88-64
+Description: Men's Basketball on Aug 1, 2023 at 7:00 PM: Canisius, UQAM, Exhibition NCAA Division I, Final, 88-64
+Skipping game, couldn't find team: Canisius or UQAM
+  - Home team "Canisius" maps to ID: null
+  - Away team "UQAM" maps to ID: 96
+Sample item: Boise State, UFV, 93-57
+Description: Men's Basketball on Aug 1, 2023 at 7:00 PM: Boise State, UFV, Exhibition: NCAA Division I, Final, 93-57
+Skipping game, couldn't find team: Boise State or UFV
+  - Home team "Boise State" maps to ID: null
+  - Away team "UFV" maps to ID: 65
+Skipping game, couldn't find team: Canisius or Bishop's
+  - Home team "Canisius" maps to ID: null
+  - Away team "Bishop's" maps to ID: 92
+Skipping game, couldn't find team: Boise State or Thompson Rivers
+  - Home team "Boise State" maps to ID: null
+  - Away team "Thompson Rivers" maps to ID: 71
+Skipping game, couldn't find team: Calgary or Wichita State
+  - Home team "Calgary" maps to ID: 64
+  - Away team "Wichita State" maps to ID: null
+Skipping game, couldn't find team: UC Santa Barbara or UBC
+  - Home team "UC Santa Barbara" maps to ID: null
+  - Away team "UBC" maps to ID: 62
+Skipping game, couldn't find team: Victoria or Xavier
+  - Home team "Victoria" maps to ID: 72
+  - Away team "Xavier" maps to ID: null
+Skipping game, couldn't find team: UC Santa Barbara or Trinity Western
+  - Home team "UC Santa Barbara" maps to ID: null
+  - Away team "Trinity Western" maps to ID: 60
+Skipping game, couldn't find team: Calgary or Wichita State
+  - Home team "Calgary" maps to ID: 64
+  - Away team "Wichita State" maps to ID: null
+Skipping game, couldn't find team: Assumption or Concordia
+  - Home team "Assumption" maps to ID: null
+  - Away team "Concordia" maps to ID: 93
+Skipping game, couldn't find team: Penn State or Victoria
+  - Home team "Penn State" maps to ID: null
+  - Away team "Victoria" maps to ID: 72
+Skipping game, couldn't find team: Towson or Toronto
+  - Home team "Towson" maps to ID: null
+  - Away team "Toronto" maps to ID: 90
+Skipping game, couldn't find team: Assumption or UQAM
+  - Home team "Assumption" maps to ID: null
+  - Away team "UQAM" maps to ID: 96
+Skipping game, couldn't find team: Towson or Toronto Metropolitan
+  - Home team "Towson" maps to ID: null
+  - Away team "Toronto Metropolitan" maps to ID: 90
+Skipping game, couldn't find team: Fairfield or UBC
+  - Home team "Fairfield" maps to ID: null
+  - Away team "UBC" maps to ID: 62
+Skipping game, couldn't find team: Calgary or Yale
+  - Home team "Calgary" maps to ID: 64
+  - Away team "Yale" maps to ID: null
+Skipping game, couldn't find team: Assumption or Laval
+  - Home team "Assumption" maps to ID: null
+  - Away team "Laval" maps to ID: 95
+Skipping game, couldn't find team: Fairfield or UBC
+  - Home team "Fairfield" maps to ID: null
+  - Away team "UBC" maps to ID: 62
+Skipping game, couldn't find team: Towson or UQAM
+  - Home team "Towson" maps to ID: null
+  - Away team "UQAM" maps to ID: 96
+Skipping game, couldn't find team: Fairfield or UBC
+  - Home team "Fairfield" maps to ID: null
+  - Away team "UBC" maps to ID: 62
+Skipping game, couldn't find team: Calgary or Yale
+  - Home team "Calgary" maps to ID: 64
+  - Away team "Yale" maps to ID: null
+Skipping game, couldn't find team: Indianapolis or Dalhousie
+  - Home team "Indianapolis" maps to ID: null
+  - Away team "Dalhousie" maps to ID: 51
+Skipping game, couldn't find team: Towson or Laval
+  - Home team "Towson" maps to ID: null
+  - Away team "Laval" maps to ID: 95
+Skipping game, couldn't find team: Towson or Concordia
+  - Home team "Towson" maps to ID: null
+  - Away team "Concordia" maps to ID: 93
+Skipping game, couldn't find team: Indianapolis or Acadia
+  - Home team "Indianapolis" maps to ID: null
+  - Away team "Acadia" maps to ID: 49
+Skipping game, couldn't find team: Harvard or McGill
+  - Home team "Harvard" maps to ID: null
+  - Away team "McGill" maps to ID: 94
+Skipping game, couldn't find team: Harvard or Ottawa
+  - Home team "Harvard" maps to ID: null
+  - Away team "Ottawa" maps to ID: 79
+Skipping game, couldn't find team: Harvard or Carleton
+  - Home team "Harvard" maps to ID: null
+  - Away team "Carleton" maps to ID: 74
+Updated existing game: Farmingdale State vs Laval
+Skipping game, couldn't find team: Harvard or Toronto
+  - Home team "Harvard" maps to ID: null
+  - Away team "Toronto" maps to ID: 90
+Updated existing game: Farmingdale vs Concordia
+Inserted new game: Algoma vs Nipissing
+Skipping game, couldn't find team: Dalhousie or University of Kings College
+  - Home team "Dalhousie" maps to ID: 51
+  - Away team "University of Kings College" maps to ID: null
+Skipping game, couldn't find team: Humber or Laurier
+  - Home team "Humber" maps to ID: null
+  - Away team "Laurier" maps to ID: 85
+Skipping game, couldn't find team: Dalhousie or Mount Saint Vincent
+  - Home team "Dalhousie" maps to ID: 51
+  - Away team "Mount Saint Vincent" maps to ID: null
+Skipping game, couldn't find team: Mohawk or McMaster
+  - Home team "Mohawk" maps to ID: null
+  - Away team "McMaster" maps to ID: 88
+Skipping game, couldn't find team: Mount Saint Vincent or StFX
+  - Home team "Mount Saint Vincent" maps to ID: null
+  - Away team "StFX" maps to ID: 54
+Updated existing game: Guelph vs Bishop's
+Updated existing game: UPEI vs UNB
+Skipping game, couldn't find team: King's College or StFX
+  - Home team "King's College" maps to ID: null
+  - Away team "StFX" maps to ID: 54
+Skipping game, couldn't find team: Guelph or Humber College
+  - Home team "Guelph" maps to ID: 81
+  - Away team "Humber College" maps to ID: null
+Skipping game, couldn't find team: Lambton College or Western
+  - Home team "Lambton College" maps to ID: null
+  - Away team "Western" maps to ID: 83
+Skipping game, couldn't find team: York or Centennial
+  - Home team "York" maps to ID: 91
+  - Away team "Centennial" maps to ID: null
+Inserted new game: Waterloo vs Saskatchewan
+Skipping game, couldn't find team: Cape Breton or St. Thomas
+  - Home team "Cape Breton" maps to ID: 50
+  - Away team "St. Thomas" maps to ID: null
+Updated existing game: Acadia vs UNB
+Updated existing game: Memorial vs McMaster
+Updated existing game: Lethbridge vs Brandon
+Updated existing game: Ontario Tech vs Toronto
+Skipping game, couldn't find team: George Brown or Toronto Metropolitan
+  - Home team "George Brown" maps to ID: null
+  - Away team "Toronto Metropolitan" maps to ID: 90
+Updated existing game: Laurentian vs UFV
+Updated existing game: Winnipeg vs Regina
+Inserted new game: UFV vs Saskatchewan
+Inserted new game: Nipissing vs Western
+Inserted new game: Mount Royal vs UNBC
+Updated existing game: Algoma vs Lakehead
+Updated existing game: Cape Breton vs UNB
+Updated existing game: Windsor vs Dalhousie
+Skipping game, couldn't find team: St. Thomas or Acadia
+  - Home team "St. Thomas" maps to ID: null
+  - Away team "Acadia" maps to ID: 49
+Updated existing game: Memorial vs Laurier
+Updated existing game: Winnipeg vs Lethbridge
+Updated existing game: York vs UPEI
+Skipping game, couldn't find team: Humber or Toronto Metropolitan
+  - Home team "Humber" maps to ID: null
+  - Away team "Toronto Metropolitan" maps to ID: 90
+Updated existing game: Concordia vs Guelph
+Updated existing game: Brandon vs Regina
+Updated existing game: Waterloo vs Laurentian
+Updated existing game: Alberta vs Carleton
+Updated existing game: Bishop's vs Victoria
+Inserted new game: Mount Royal vs UNBC
+Skipping game, couldn't find team: Dalhousie or Holland
+  - Home team "Dalhousie" maps to ID: 51
+  - Away team "Holland" maps to ID: null
+Updated existing game: Algoma vs Lakehead
+Skipping game, couldn't find team: St. Thomas or UNB
+  - Home team "St. Thomas" maps to ID: null
+  - Away team "UNB" maps to ID: 56
+Updated existing game: York vs Saint Mary's
+Updated existing game: Concordia vs McMaster
+Updated existing game: Memorial vs Guelph
+Updated existing game: UFV vs Waterloo
+Updated existing game: Cape Breton vs Acadia
+Updated existing game: Laurentian vs Saskatchewan
+Updated existing game: Windsor vs UPEI
+Updated existing game: Bishop's vs Alberta
+Updated existing game: Carleton vs Victoria
+Updated existing game: York vs Dalhousie
+Updated existing game: Windsor vs Saint Mary's
+Updated existing game: Queen's vs McGill
+Updated existing game: Bishop's vs Carleton
+Skipping game, couldn't find team: Holland or UPEI
+  - Home team "Holland" maps to ID: null
+  - Away team "UPEI" maps to ID: 55
+Updated existing game: Alberta vs Victoria
+Skipping game, couldn't find team: Humber College or Waterloo
+  - Home team "Humber College" maps to ID: null
+  - Away team "Waterloo" maps to ID: 82
+Skipping game, couldn't find team: Acadia or Mount Saint Vincent
+  - Home team "Acadia" maps to ID: 49
+  - Away team "Mount Saint Vincent" maps to ID: null
+Updated existing game: Queen's vs Laval
+Updated existing game: Saint Mary's vs Acadia
+Updated existing game: McMaster vs Manitoba
+Updated existing game: Dalhousie vs Laurier
+Updated existing game: Ontario Tech vs Bishop's
+Updated existing game: Lakehead vs Winnipeg
+Updated existing game: Ontario Tech vs Laval
+Updated existing game: Lakehead vs Manitoba
+Updated existing game: Queen's vs Bishop's
+Updated existing game: McMaster vs Winnipeg
+Updated existing game: StFX vs Saint Mary's
+Updated existing game: UNB vs Regina
+Skipping game, couldn't find team: Centennial or Toronto
+  - Home team "Centennial" maps to ID: null
+  - Away team "Toronto" maps to ID: 90
+Updated existing game: Waterloo vs Lethbridge
+Updated existing game: Dalhousie vs Toronto Metropolitan
+Updated existing game: UNBC vs Concordia
+Updated existing game: Cape Breton vs Brock
+Skipping game, couldn't find team: Eureka College or Windsor
+  - Home team "Eureka College" maps to ID: null
+  - Away team "Windsor" maps to ID: 84
+Updated existing game: Ontario Tech vs UQAM
+Updated existing game: McMaster vs Lakehead
+Updated existing game: Dalhousie vs Guelph
+Updated existing game: UNB vs UNBC
+Updated existing game: Waterloo vs Cape Breton
+Updated existing game: Regina vs Concordia
+Updated existing game: Lethbridge vs Brock
+Skipping game, couldn't find team: Adrian or York
+  - Home team "Adrian" maps to ID: null
+  - Away team "York" maps to ID: 91
+Skipping game, couldn't find team: Eureka College or Western
+  - Home team "Eureka College" maps to ID: null
+  - Away team "Western" maps to ID: 83
+Updated existing game: Cape Breton vs Lethbridge
+Updated existing game: UNBC vs Regina
+Updated existing game: Waterloo vs Brock
+Updated existing game: UNB vs Concordia
+Skipping game, couldn't find team: Western or Mohawk College
+  - Home team "Western" maps to ID: 83
+  - Away team "Mohawk College" maps to ID: null
+Updated existing game: StFX vs Cape Breton
+Skipping game, couldn't find team: Sheridan or Guelph
+  - Home team "Sheridan" maps to ID: null
+  - Away team "Guelph" maps to ID: 81
+Updated existing game: Concordia vs Toronto Metropolitan
+Skipping game, couldn't find team: Queen's or St. Lawrence College
+  - Home team "Queen's" maps to ID: 77
+  - Away team "St. Lawrence College" maps to ID: null
+Updated existing game: Saint Mary's vs Waterloo
+Updated existing game: Ottawa vs UBC Okanagan
+Skipping game, couldn't find team: UFV or Vancouver Island University
+  - Home team "UFV" maps to ID: 65
+  - Away team "Vancouver Island University" maps to ID: null
+Updated existing game: Toronto Metropolitan vs Saint Mary's
+Skipping game, couldn't find team: Laurier or NCAA Division III
+  - Home team "Laurier" maps to ID: 85
+  - Away team "NCAA Division III" maps to ID: null
+Updated existing game: Saskatchewan vs UQAM
+Updated existing game: Laval vs Toronto
+Updated existing game: UNB vs Windsor
+Skipping game, couldn't find team: Mercyhurst or McMaster
+  - Home team "Mercyhurst" maps to ID: null
+  - Away team "McMaster" maps to ID: 88
+Updated existing game: MacEwan vs Thompson Rivers
+Updated existing game: Guelph vs Carleton
+Updated existing game: Concordia vs Waterloo
+Updated existing game: Memorial vs Alberta
+Updated existing game: McGill vs Calgary
+Updated existing game: StFX vs Mount Royal
+Updated existing game: Trinity Western vs Ottawa
+Inserted new game: Laval vs York
+Updated existing game: Saint Mary's vs Concordia
+Updated existing game: Toronto Metropolitan vs Waterloo
+Updated existing game: Windsor vs McGill
+Updated existing game: Mount Royal vs UBC Okanagan
+Skipping game, couldn't find team: Seattle Mountaineers or UBC
+  - Home team "Seattle Mountaineers" maps to ID: null
+  - Away team "UBC" maps to ID: 62
+Skipping game, couldn't find team: Centennial or Brock
+  - Home team "Centennial" maps to ID: null
+  - Away team "Brock" maps to ID: 86
+Updated existing game: UQAM vs Guelph
+Skipping game, couldn't find team: Mercyhurst or Laurier
+  - Home team "Mercyhurst" maps to ID: null
+  - Away team "Laurier" maps to ID: 85
+Updated existing game: Lakehead vs Dalhousie
+Updated existing game: MacEwan vs Memorial
+Updated existing game: Ottawa vs StFX
+Updated existing game: Laurentian vs Algoma
+Updated existing game: Saskatchewan vs Carleton
+Updated existing game: Trinity Western vs UBC Okanagan
+Updated existing game: UNB vs Calgary
+Updated existing game: Thompson Rivers vs Alberta
+Skipping game, couldn't find team: Seattle Mountaineers or UFV
+  - Home team "Seattle Mountaineers" maps to ID: null
+  - Away team "UFV" maps to ID: 65
+Updated existing game: Lakehead vs Acadia
+Updated existing game: Saskatchewan vs Guelph
+Skipping game, couldn't find team: Laurier or NCAA Division III
+  - Home team "Laurier" maps to ID: 85
+  - Away team "NCAA Division III" maps to ID: null
+Updated existing game: McGill vs UNB
+Updated existing game: UQAM vs Carleton
+Updated existing game: Trinity Western vs Mount Royal
+Updated existing game: Memorial vs Thompson Rivers
+Skipping game, couldn't find team: Mercyhurst or Brock
+  - Home team "Mercyhurst" maps to ID: null
+  - Away team "Brock" maps to ID: 86
+Updated existing game: StFX vs UBC Okanagan
+Updated existing game: Windsor vs Calgary
+Updated existing game: Cape Breton vs StFX
+Updated existing game: Calgary vs Toronto Metropolitan
+Updated existing game: UPEI vs Bishop's
+Updated existing game: Western vs Laval
+Updated existing game: York vs Ontario Tech
+Updated existing game: UNBC vs Brandon
+Updated existing game: Acadia vs Windsor
+Updated existing game: Toronto vs UBC Okanagan
+Updated existing game: Calgary vs Laurier
+Updated existing game: Brock vs Queen's
+Updated existing game: Western vs Bishop's
+Updated existing game: Concordia vs Ottawa
+Updated existing game: UNBC vs Winnipeg
+Updated existing game: UPEI vs Laval
+Updated existing game: UQAM vs Victoria
+Updated existing game: Dalhousie vs McGill
+Updated existing game: Manitoba vs Brandon
+Updated existing game: Algoma vs UBC
+Updated existing game: Trinity Western vs MacEwan
+Updated existing game: UFV vs Thompson Rivers
+Updated existing game: Regina vs Alberta
+Skipping game, couldn't find team: Toronto Metropolitan or Canisius College
+  - Home team "Toronto Metropolitan" maps to ID: 90
+  - Away team "Canisius College" maps to ID: null
+Updated existing game: UPEI vs Western
+Updated existing game: Dalhousie vs UBC Okanagan
+Updated existing game: Victoria vs Queen's
+Updated existing game: Calgary vs McMaster
+Updated existing game: Toronto vs McGill
+Updated existing game: Trinity Western vs Alberta
+Updated existing game: Acadia vs Laurier
+Updated existing game: Brock vs UQAM
+Updated existing game: Nipissing vs Laurentian
+Updated existing game: Brandon vs Winnipeg
+Updated existing game: Regina vs MacEwan
+Updated existing game: UFV vs Algoma
+Updated existing game: UNBC vs Manitoba
+Updated existing game: UBC vs Thompson Rivers
+Updated existing game: Dalhousie vs Toronto
+Updated existing game: Brock vs Victoria
+Updated existing game: Acadia vs Ontario Tech
+Updated existing game: UBC Okanagan vs McGill
+Updated existing game: UQAM vs Queen's
+Updated existing game: Algoma vs Thompson Rivers
+Skipping game, couldn't find team: Brandon or Valley City State
+  - Home team "Brandon" maps to ID: 57
+  - Away team "Valley City State" maps to ID: null
+Updated existing game: Acadia vs Saint Mary's
+Skipping game, couldn't find team: Brandon or Valley City State
+  - Home team "Brandon" maps to ID: 57
+  - Away team "Valley City State" maps to ID: null
+Updated existing game: Queen's vs Concordia
+Updated existing game: UPEI vs Memorial
+Updated existing game: UNB vs StFX
+Updated existing game: Cape Breton vs Dalhousie
+Updated existing game: Winnipeg vs Manitoba
+Updated existing game: UFV vs Mount Royal
+Updated existing game: Brock vs UBC
+Updated existing game: UNB vs StFX
+Updated existing game: Concordia vs Carleton
+Updated existing game: UPEI vs Memorial
+Updated existing game: Cape Breton vs Dalhousie
+Updated existing game: Saint Mary's vs Acadia
+Updated existing game: UFV vs Brock
+Updated existing game: Mount Royal vs UBC
+Updated existing game: Brock vs Mount Royal
+Updated existing game: Windsor vs Western
+Updated existing game: Dalhousie vs Acadia
+Updated existing game: McMaster vs Laurier
+Updated existing game: McGill vs UQAM
+Updated existing game: Concordia vs Bishop's
+Updated existing game: Laurentian vs Ontario Tech
+Updated existing game: Brandon vs Manitoba
+Updated existing game: Saint Mary's vs Cape Breton
+Updated existing game: StFX vs UPEI
+Updated existing game: Memorial vs UNB
+Updated existing game: Algoma vs Western
+Updated existing game: Ottawa vs Guelph
+Updated existing game: Laurentian vs Queen's
+Updated existing game: Waterloo vs York
+Updated existing game: Toronto vs Brock
+Updated existing game: Lakehead vs Toronto Metropolitan
+Updated existing game: Winnipeg vs UBC Okanagan
+Updated existing game: Brandon vs Manitoba
+Updated existing game: Mount Royal vs MacEwan
+Updated existing game: Saskatchewan vs Alberta
+Updated existing game: Lethbridge vs UBC
+Updated existing game: Trinity Western vs Thompson Rivers
+Updated existing game: UFV vs UNBC
+Updated existing game: Calgary vs Victoria
+Updated existing game: Laval vs Concordia
+Updated existing game: Algoma vs Western
+Updated existing game: StFX vs UPEI
+Updated existing game: Laurier vs Windsor
+Updated existing game: Mount Royal vs MacEwan
+Updated existing game: Saint Mary's vs Cape Breton
+Updated existing game: Memorial vs UNB
+Updated existing game: Winnipeg vs UBC Okanagan
+Updated existing game: Nipissing vs Queen's
+Updated existing game: McMaster vs Toronto
+Updated existing game: Lakehead vs Toronto Metropolitan
+Updated existing game: York vs Brock
+Updated existing game: Carleton vs Guelph
+Updated existing game: Saskatchewan vs Alberta
+Updated existing game: Lethbridge vs UBC
+Updated existing game: UFV vs UNBC
+Updated existing game: Calgary vs Victoria
+Updated existing game: Trinity Western vs Thompson Rivers
+Updated existing game: Acadia vs Dalhousie
+Updated existing game: Nipissing vs Ontario Tech
+Updated existing game: Saint Mary's vs Dalhousie
+Updated existing game: Waterloo vs Guelph
+Updated existing game: McMaster vs Toronto Metropolitan
+Updated existing game: Bishop's vs McGill
+Updated existing game: StFX vs Memorial
+Updated existing game: UPEI vs UNB
+Updated existing game: Dalhousie vs Saint Mary's
+Updated existing game: Cape Breton vs Acadia
+Updated existing game: York vs Lakehead
+Updated existing game: Queen's vs Laurentian
+Updated existing game: UQAM vs Laval
+Updated existing game: Laurier vs Algoma
+Updated existing game: Ottawa vs Windsor
+Updated existing game: Carleton vs Western
+Updated existing game: Ontario Tech vs Nipissing
+Updated existing game: MacEwan vs Saskatchewan
+Updated existing game: Thompson Rivers vs Brandon
+Updated existing game: UBC vs Winnipeg
+Updated existing game: UBC Okanagan vs Lethbridge
+Updated existing game: Manitoba vs Calgary
+Updated existing game: Alberta vs Mount Royal
+Updated existing game: Regina vs Trinity Western
+Updated existing game: Victoria vs UFV
+Updated existing game: Brock vs Toronto Metropolitan
+Updated existing game: Guelph vs Waterloo
+Updated existing game: McGill vs Concordia
+Updated existing game: Laurier vs Algoma
+Updated existing game: Cape Breton vs Acadia
+Updated existing game: Queen's vs Nipissing
+Updated existing game: UBC vs Winnipeg
+Updated existing game: StFX vs Memorial
+Updated existing game: UPEI vs UNB
+Updated existing game: Ontario Tech vs Laurentian
+Updated existing game: York vs Lakehead
+Updated existing game: Toronto vs McMaster
+Updated existing game: Carleton vs Windsor
+Updated existing game: Ottawa vs Western
+Updated existing game: MacEwan vs Saskatchewan
+Updated existing game: Thompson Rivers vs Brandon
+Updated existing game: Manitoba vs Calgary
+Updated existing game: UBC Okanagan vs Lethbridge
+Updated existing game: Alberta vs Mount Royal
+Updated existing game: Regina vs Trinity Western
+Updated existing game: Victoria vs UFV
+Updated existing game: Toronto Metropolitan vs Toronto
+Updated existing game: Laval vs Bishop's
+Updated existing game: UQAM vs Concordia
+Updated existing game: Ontario Tech vs Queen's
+Updated existing game: Memorial vs Acadia
+Updated existing game: Dalhousie vs StFX
+Updated existing game: Saint Mary's vs UPEI
+Updated existing game: Algoma vs Guelph
+Updated existing game: Laurentian vs Laurier
+Updated existing game: Brock vs Carleton
+Updated existing game: Lakehead vs Ottawa
+Updated existing game: Western vs York
+Updated existing game: Nipissing vs Waterloo
+Updated existing game: Windsor vs McMaster
+Updated existing game: UBC vs Saskatchewan
+Updated existing game: Calgary vs Brandon
+Updated existing game: Winnipeg vs Lethbridge
+Updated existing game: Manitoba vs Mount Royal
+Updated existing game: Regina vs Thompson Rivers
+Updated existing game: UBC Okanagan vs UFV
+Updated existing game: MacEwan vs UNBC
+Updated existing game: UNB vs Cape Breton
+Updated existing game: Toronto vs Toronto Metropolitan
+Updated existing game: Algoma vs Guelph
+Updated existing game: Bishop's vs UQAM
+Updated existing game: Nipissing vs Laurier
+Updated existing game: Laurentian vs Waterloo
+Updated existing game: Memorial vs Acadia
+Updated existing game: Windsor vs York
+Updated existing game: Brock vs Ottawa
+Updated existing game: Lakehead vs Carleton
+Updated existing game: McGill vs Laval
+Updated existing game: Queen's vs Ontario Tech
+Updated existing game: Western vs McMaster
+Updated existing game: Calgary vs Brandon
+Updated existing game: UBC vs Saskatchewan
+Updated existing game: Winnipeg vs Lethbridge
+Updated existing game: Manitoba vs Mount Royal
+Updated existing game: MacEwan vs UNBC
+Updated existing game: UBC Okanagan vs UFV
+Updated existing game: Regina vs Thompson Rivers
+Updated existing game: UPEI vs Dalhousie
+Updated existing game: Laurier vs Guelph
+Updated existing game: Toronto Metropolitan vs McMaster
+Updated existing game: McGill vs Bishop's
+Updated existing game: UBC vs Victoria
+Updated existing game: Toronto vs York
+Updated existing game: Cape Breton vs Memorial
+Updated existing game: StFX vs Saint Mary's
+Updated existing game: Carleton vs Laurentian
+Updated existing game: Ottawa vs Nipissing
+Updated existing game: Queen's vs Brock
+Updated existing game: Western vs Lakehead
+Updated existing game: Waterloo vs Algoma
+Updated existing game: Trinity Western vs Brandon
+Updated existing game: Lethbridge vs Manitoba
+Updated existing game: UFV vs Regina
+Updated existing game: Calgary vs Saskatchewan
+Updated existing game: UNBC vs Alberta
+Updated existing game: Winnipeg vs Mount Royal
+Updated existing game: York vs Toronto
+Updated existing game: Guelph vs Laurier
+Updated existing game: Ontario Tech vs Toronto Metropolitan
+Updated existing game: UQAM vs McGill
+Updated existing game: Waterloo vs Algoma
+Updated existing game: Cape Breton vs Memorial
+Updated existing game: UNB vs Dalhousie
+Updated existing game: Acadia vs UPEI
+Updated existing game: Ottawa vs Laurentian
+Updated existing game: Concordia vs Laval
+Updated existing game: Windsor vs Lakehead
+Updated existing game: McMaster vs Brock
+Updated existing game: Carleton vs Nipissing
+Updated existing game: Trinity Western vs Brandon
+Updated existing game: Lethbridge vs Manitoba
+Updated existing game: Calgary vs Saskatchewan
+Updated existing game: UFV vs Regina
+Updated existing game: Winnipeg vs Mount Royal
+Updated existing game: UNBC vs Alberta
+Updated existing game: Victoria vs UBC
+Updated existing game: Laurier vs Toronto Metropolitan
+Updated existing game: Bishop's vs Concordia
+Updated existing game: Algoma vs Ontario Tech
+Updated existing game: Guelph vs Queen's
+Updated existing game: Lakehead vs Toronto
+Updated existing game: Brock vs Waterloo
+Updated existing game: Ottawa vs York
+Updated existing game: Laurentian vs Nipissing
+Updated existing game: Carleton vs McMaster
+Updated existing game: UNBC vs UBC Okanagan
+Updated existing game: Saskatchewan vs Winnipeg
+Updated existing game: Brandon vs Regina
+Updated existing game: Mount Royal vs Lethbridge
+Updated existing game: Alberta vs Calgary
+Updated existing game: UBC vs MacEwan
+Updated existing game: Manitoba vs Trinity Western
+Updated existing game: Western vs Windsor
+Updated existing game: Laval vs UQAM
+Updated existing game: Toronto Metropolitan vs Waterloo
+Updated existing game: Saskatchewan vs Winnipeg
+Updated existing game: UBC vs MacEwan
+Updated existing game: UNBC vs UBC Okanagan
+Updated existing game: Guelph vs Ontario Tech
+Updated existing game: Nipissing vs Laurentian
+Updated existing game: Carleton vs York
+Updated existing game: Brock vs Laurier
+Updated existing game: Lakehead vs Toronto
+Updated existing game: Algoma vs Queen's
+Updated existing game: Ottawa vs McMaster
+Updated existing game: Alberta vs Calgary
+Updated existing game: Brandon vs Regina
+Updated existing game: Mount Royal vs Lethbridge
+Updated existing game: Manitoba vs Trinity Western
+Updated existing game: Carleton vs Ottawa
+Skipping game, couldn't find team: Thompson Rivers or Saint Katherine
+  - Home team "Thompson Rivers" maps to ID: 71
+  - Away team "Saint Katherine" maps to ID: null
+Skipping game, couldn't find team: Thompson Rivers or Westcliff
+  - Home team "Thompson Rivers" maps to ID: 71
+  - Away team "Westcliff" maps to ID: null
+Skipping game, couldn't find team: Mount Royal or Vanguard
+  - Home team "Mount Royal" maps to ID: 59
+  - Away team "Vanguard" maps to ID: null
+Updated existing game: Winnipeg vs Ottawa
+Updated existing game: Calgary vs Cape Breton
+Updated existing game: StFX vs Laval
+Skipping game, couldn't find team: Nipissing or Sheridan College
+  - Home team "Nipissing" maps to ID: 76
+  - Away team "Sheridan College" maps to ID: null
+Inserted new game: UNBC vs Victoria
+Skipping game, couldn't find team: Mount Royal or The Master's University
+  - Home team "Mount Royal" maps to ID: 59
+  - Away team "The Master's University" maps to ID: null
+Skipping game, couldn't find team: Concordia or Keiser University
+  - Home team "Concordia" maps to ID: 93
+  - Away team "Keiser University" maps to ID: null
+Updated existing game: StFX vs Ottawa
+Skipping game, couldn't find team: McMaster or Saginaw Valley State
+  - Home team "McMaster" maps to ID: 88
+  - Away team "Saginaw Valley State" maps to ID: null
+Skipping game, couldn't find team: St Clair College or Cape Breton
+  - Home team "St Clair College" maps to ID: null
+  - Away team "Cape Breton" maps to ID: 50
+Updated existing game: Winnipeg vs Laval
+Skipping game, couldn't find team: Guelph or St. Lawrence College
+  - Home team "Guelph" maps to ID: 81
+  - Away team "St. Lawrence College" maps to ID: null
+Updated existing game: Calgary vs Dalhousie
+Updated existing game: StFX vs Winnipeg
+Skipping game, couldn't find team: Concordia or Ave Maria University
+  - Home team "Concordia" maps to ID: 93
+  - Away team "Ave Maria University" maps to ID: null
+Inserted new game: UNBC vs Victoria
+Skipping game, couldn't find team: Mount Royal or Hope International
+  - Home team "Mount Royal" maps to ID: 59
+  - Away team "Hope International" maps to ID: null
+Updated existing game: Ottawa vs Laval
+Updated existing game: Guelph vs Nipissing
+Updated existing game: Thompson Rivers vs Trinity Western
+Updated existing game: Calgary vs Acadia
+Skipping game, couldn't find team: St. Clair College or Dalhousie
+  - Home team "St. Clair College" maps to ID: null
+  - Away team "Dalhousie" maps to ID: 51
+Skipping game, couldn't find team: St. Clair College or Acadia
+  - Home team "St. Clair College" maps to ID: null
+  - Away team "Acadia" maps to ID: 49
+Inserted new game: Florida Memorial vs Concordia
+Skipping game, couldn't find team: UPEI or St. Thomas
+  - Home team "UPEI" maps to ID: 55
+  - Away team "St. Thomas" maps to ID: null
+Updated existing game: Guelph vs Toronto
+Updated existing game: Dalhousie vs Saint Mary's
+Updated existing game: Acadia vs Cape Breton
+Updated existing game: UNB vs UPEI
+Updated existing game: Memorial vs StFX
+Updated existing game: Laurentian vs Lakehead
+Updated existing game: Bishop's vs Laval
+Updated existing game: Waterloo vs Windsor
+Updated existing game: Queen's vs Ottawa
+Updated existing game: Laurier vs Western
+Updated existing game: Toronto Metropolitan vs Brock
+Updated existing game: Ontario Tech vs Carleton
+Updated existing game: Winnipeg vs Brandon
+Updated existing game: Regina vs Manitoba
+Updated existing game: Calgary vs Mount Royal
+Updated existing game: MacEwan vs Alberta
+Updated existing game: UFV vs Thompson Rivers
+Updated existing game: Trinity Western vs UBC
+Updated existing game: UBC Okanagan vs Victoria
+Updated existing game: Lethbridge vs UNBC
+Updated existing game: Ontario Tech vs Ottawa
+Updated existing game: UNB vs UPEI
+Updated existing game: Acadia vs Cape Breton
+Updated existing game: Memorial vs StFX
+Updated existing game: Saint Mary's vs Dalhousie
+Updated existing game: York vs McMaster
+Updated existing game: Waterloo vs Western
+Updated existing game: Brock vs Toronto
+Updated existing game: Nipissing vs Lakehead
+Updated existing game: Queen's vs Carleton
+Updated existing game: Windsor vs Guelph
+Updated existing game: Regina vs Manitoba
+Updated existing game: Winnipeg vs Brandon
+Updated existing game: Calgary vs Mount Royal
+Updated existing game: MacEwan vs Alberta
+Updated existing game: Trinity Western vs UBC
+Updated existing game: Lethbridge vs UNBC
+Updated existing game: UBC Okanagan vs Victoria
+Updated existing game: UFV vs Thompson Rivers
+Updated existing game: Laurier vs Waterloo
+Updated existing game: McGill vs Concordia
+Updated existing game: UQAM vs Bishop's
+Updated existing game: Dalhousie vs UNB
+Updated existing game: UBC Okanagan vs Saskatchewan
+Updated existing game: McMaster vs Queen's
+Updated existing game: York vs Ontario Tech
+Updated existing game: Algoma vs Brock
+Updated existing game: Nipissing vs Carleton
+Updated existing game: Lakehead vs Guelph
+Updated existing game: Laurentian vs Ottawa
+Updated existing game: Toronto Metropolitan vs Windsor
+Updated existing game: Toronto vs Western
+Updated existing game: Alberta vs Winnipeg
+Updated existing game: UNBC vs Regina
+Updated existing game: UFV vs Lethbridge
+Updated existing game: Thompson Rivers vs Calgary
+Updated existing game: Manitoba vs UBC
+Updated existing game: Victoria vs Trinity Western
+Updated existing game: Waterloo vs Laurier
+Updated existing game: Nipissing vs Ottawa
+Updated existing game: Bishop's vs UQAM
+Updated existing game: Concordia vs McGill
+Updated existing game: Brandon vs MacEwan
+Updated existing game: Alberta vs Winnipeg
+Updated existing game: UBC Okanagan vs Saskatchewan
+Updated existing game: Cape Breton vs UPEI
+Updated existing game: Saint Mary's vs UNB
+Updated existing game: StfX vs Acadia
+Updated existing game: McMaster vs Ontario Tech
+Updated existing game: York vs Queen's
+Updated existing game: Laurentian vs Carleton
+Updated existing game: Toronto Metropolitan vs Western
+Updated existing game: Toronto vs Windsor
+Updated existing game: Brock vs Guelph
+Updated existing game: UNBC vs Regina
+Updated existing game: UFV vs Lethbridge
+Updated existing game: Victoria vs Trinity Western
+Updated existing game: Manitoba vs UBC
+Updated existing game: Thompson Rivers vs Calgary
+Updated existing game: Lakehead vs Algoma
+Updated existing game: Brandon vs MacEwan
+Updated existing game: Guelph vs McMaster
+Updated existing game: Ontario Tech vs Toronto
+Updated existing game: Concordia vs Laval
+Updated existing game: Bishop's vs McGill
+Updated existing game: UNB vs Memorial
+Updated existing game: Dalhousie vs Acadia
+Updated existing game: Cape Breton vs Saint Mary's
+Updated existing game: Queen's vs Toronto Metropolitan
+Updated existing game: Brock vs York
+Updated existing game: Western vs Nipissing
+Updated existing game: Ottawa vs Algoma
+Updated existing game: Lakehead vs Waterloo
+Updated existing game: Windsor vs Laurentian
+Updated existing game: Lethbridge vs MacEwan
+Updated existing game: Thompson Rivers vs UBC Okanagan
+Updated existing game: Mount Royal vs Regina
+Updated existing game: Saskatchewan vs Brandon
+Updated existing game: Victoria vs Manitoba
+Updated existing game: UBC vs UNBC
+Updated existing game: Trinity Western vs Calgary
+Updated existing game: Alberta vs UFV
+Updated existing game: Western vs Laurentian
+Updated existing game: Laval vs Concordia
+Updated existing game: Lethbridge vs MacEwan
+Updated existing game: Thompson Rivers vs UBC Okanagan
+Updated existing game: UNB vs Memorial
+Updated existing game: Acadia vs Dalhousie
+Updated existing game: UPEI vs StFX
+Updated existing game: Cape Breton vs Saint Mary's
+Updated existing game: Toronto Metropolitan vs Guelph
+Updated existing game: Windsor vs Nipissing
+Updated existing game: Lakehead vs Laurier
+Updated existing game: McMaster vs York
+Updated existing game: Queen's vs Toronto
+Updated existing game: McGill vs Bishop's
+Updated existing game: Carleton vs Algoma
+Updated existing game: Ontario Tech vs Brock
+Updated existing game: Saskatchewan vs Brandon
+Updated existing game: Victoria vs Manitoba
+Updated existing game: Mount Royal vs Regina
+Updated existing game: Trinity Western vs Calgary
+Updated existing game: Alberta vs UFV
+Updated existing game: UBC vs UNBC
+Updated existing game: UPEI vs StFX
+Updated existing game: Saint Mary's vs StFX
+Updated existing game: McGill vs UQAM
+Updated existing game: UNBC vs Thompson Rivers
+Updated existing game: UPEI vs Acadia
+Updated existing game: StFX vs Cape Breton
+Updated existing game: Memorial vs Dalhousie
+Updated existing game: York vs Laurentian
+Updated existing game: Brock vs Lakehead
+Updated existing game: Toronto Metropolitan vs Algoma
+Updated existing game: Laurier vs Carleton
+Updated existing game: Queen's vs Western
+Updated existing game: Ontario Tech vs Windsor
+Updated existing game: Waterloo vs Ottawa
+Updated existing game: McMaster vs Nipissing
+Updated existing game: MacEwan vs Winnipeg
+Updated existing game: Regina vs Alberta
+Updated existing game: Lethbridge vs Calgary
+Updated existing game: UBC vs UBC Okanagan
+Updated existing game: Mount Royal vs Trinity Western
+Updated existing game: Saskatchewan vs Victoria
+Updated existing game: Brandon vs UFV
+Updated existing game: Laurier vs Ottawa
+Updated existing game: UQAM vs McGill
+Updated existing game: Queen's vs Windsor
+Updated existing game: MacEwan vs Winnipeg
+Updated existing game: Memorial vs Dalhousie
+Updated existing game: UPEI vs Saint Mary's
+Updated existing game: Brock vs Lakehead
+Updated existing game: Waterloo vs Carleton
+Updated existing game: York vs Nipissing
+Updated existing game: Laval vs Bishop's
+Updated existing game: Ontario Tech vs Western
+Updated existing game: McMaster vs Laurentian
+Updated existing game: Toronto vs Algoma
+Updated existing game: Regina vs Alberta
+Updated existing game: UBC vs UBC Okanagan
+Updated existing game: Mount Royal vs Trinity Western
+Updated existing game: Lethbridge vs Calgary
+Updated existing game: Brandon vs UFV
+Updated existing game: Saskatchewan vs Victoria
+Updated existing game: UNBC vs Thompson Rivers
+Updated existing game: Cape Breton vs UNB
+Updated existing game: Acadia vs StFX
+Updated existing game: Guelph vs Western
+Updated existing game: Bishop's vs Concordia
+Updated existing game: Laval vs UQAM
+Updated existing game: Manitoba vs Winnipeg
+Updated existing game: UNB vs Saint Mary's
+Updated existing game: Laurentian vs Toronto
+Updated existing game: Nipissing vs Toronto Metropolitan
+Updated existing game: Windsor vs Brock
+Updated existing game: Laurier vs Queen's
+Updated existing game: Ottawa vs Carleton
+Updated existing game: Algoma vs York
+Updated existing game: Waterloo vs Ontario Tech
+Updated existing game: Regina vs Saskatchewan
+Updated existing game: Thompson Rivers vs Alberta
+Updated existing game: UFV vs Mount Royal
+Updated existing game: MacEwan vs UBC Okanagan
+Updated existing game: UNBC vs Trinity Western
+Updated existing game: Brandon vs Victoria
+Updated existing game: Winnipeg vs Manitoba
+Updated existing game: Waterloo vs Queen's
+Updated existing game: Laurier vs Ontario Tech
+Updated existing game: Dalhousie vs UPEI
+Updated existing game: Western vs Brock
+Updated existing game: UQAM vs Laval
+Updated existing game: Laurentian vs Toronto Metropolitan
+Updated existing game: Nipissing vs Toronto
+Updated existing game: Concordia vs Bishop's
+Updated existing game: Regina vs Saskatchewan
+Updated existing game: UFV vs Mount Royal
+Updated existing game: Thompson Rivers vs Alberta
+Updated existing game: UNBC vs Trinity Western
+Updated existing game: MacEwan vs UBC Okanagan
+Updated existing game: Brandon vs Victoria
+Updated existing game: Guelph vs Windsor
+Updated existing game: McMaster vs Algoma
+Updated existing game: Guelph vs York
+Updated existing game: Acadia vs Saint Mary's
+Updated existing game: Concordia vs UQAM
+Updated existing game: Laval vs McGill
+Updated existing game: Memorial vs UPEI
+Updated existing game: StFX vs UNB
+Updated existing game: Victoria vs MacEwan
+Updated existing game: Windsor vs Laurier
+Updated existing game: Algoma vs Nipissing
+Updated existing game: Toronto vs Carleton
+Updated existing game: Toronto Metropolitan vs Ottawa
+Updated existing game: Laurentian vs Brock
+Updated existing game: Queen's vs Lakehead
+Updated existing game: McMaster vs Waterloo
+Updated existing game: Winnipeg vs Regina
+Updated existing game: UBC Okanagan vs Manitoba
+Updated existing game: Alberta vs Lethbridge
+Updated existing game: Mount Royal vs Thompson Rivers
+Updated existing game: Calgary vs UBC
+Updated existing game: Saskatchewan vs UNBC
+Updated existing game: Trinity Western vs UFV
+Updated existing game: StFX vs UNB
+Updated existing game: Victoria vs MacEwan
+Updated existing game: UQAM vs Concordia
+Updated existing game: Memorial vs UPEI
+Updated existing game: Toronto vs Ottawa
+Updated existing game: Windsor vs Waterloo
+Updated existing game: Saint Mary's vs Acadia
+Updated existing game: York vs Laurier
+Updated existing game: Ontario Tech vs Lakehead
+Updated existing game: McGill vs Laval
+Updated existing game: Western vs Guelph
+Updated existing game: Toronto Metropolitan vs Carleton
+Updated existing game: Brock vs McMaster
+Updated existing game: UBC Okanagan vs Manitoba
+Updated existing game: Winnipeg vs Regina
+Updated existing game: Alberta vs Lethbridge
+Updated existing game: Calgary vs UBC
+Updated existing game: Trinity Western vs UFV
+Updated existing game: Mount Royal vs Thompson Rivers
+Updated existing game: Saskatchewan vs UNBC
+Updated existing game: Algoma vs Laurentian
+Updated existing game: Dalhousie vs Cape Breton
+Updated existing game: Dalhousie vs Cape Breton
+Updated existing game: UNB vs Acadia
+Updated existing game: York vs Toronto Metropolitan
+Updated existing game: Western vs Waterloo
+Updated existing game: Thompson Rivers vs Victoria
+Updated existing game: Thompson Rivers vs Victoria
+Updated existing game: Saint Mary's vs Memorial
+Updated existing game: UPEI vs Cape Breton
+Updated existing game: StFX vs Dalhousie
+Updated existing game: Lakehead vs McMaster
+Updated existing game: Carleton vs Ontario Tech
+Updated existing game: Guelph vs Nipissing
+Updated existing game: Bishop's vs Laval
+Updated existing game: Toronto vs Laurier
+Updated existing game: Ottawa vs Queen's
+Updated existing game: Algoma vs Windsor
+Updated existing game: Acadia vs UNB
+Updated existing game: Concordia vs McGill
+Updated existing game: Algoma vs Windsor
+Updated existing game: Ottawa vs Ontario Tech
+Updated existing game: Guelph vs Laurentian
+Updated existing game: Saint Mary's vs Memorial
+Updated existing game: Cape Breton vs StFX
+Updated existing game: Nipissing vs Brock
+Updated existing game: Carleton vs Queen's
+Updated existing game: Toronto vs Waterloo
+Updated existing game: Lakehead vs McMaster
+Updated existing game: Western vs Laurier
+Updated existing game: Toronto Metropolitan vs York
+Updated existing game: Mount Royal vs Alberta
+Updated existing game: Saskatchewan vs Brandon
+Updated existing game: York vs Laurier
+Updated existing game: UFV vs Regina
+Updated existing game: UQAM vs Bishop's
+Updated existing game: McMaster vs Toronto Metropolitan
+Updated existing game: Brock vs Carleton
+Updated existing game: Lakehead vs Ontario Tech
+Updated existing game: UNBC vs UBC
+Updated existing game: Alberta vs Calgary
+Updated existing game: Brandon vs Victoria
+Updated existing game: UFV vs Winnipeg
+Updated existing game: UNBC vs Manitoba
+Updated existing game: Memorial vs UNB
+Updated existing game: UPEI vs Saint Mary's
+Updated existing game: Memorial vs StFX
+Updated existing game: McMaster vs Queen's
+Updated existing game: Concordia vs UQAM
+Updated existing game: Laval vs McGill
+Updated existing game: Laurier vs Western
+Updated existing game: Brock vs Ottawa
+Updated existing game: UNBC vs Victoria
+Updated existing game: Saint Mary's vs Dalhousie
+Updated existing game: Ontario Tech vs Toronto
+Updated existing game: Winnipeg vs Calgary
+Updated existing game: Dalhousie vs StFX
+Updated existing game: UNBC vs Calgary
+Updated existing game: Winnipeg vs Victoria
+Updated existing game: Bishop's vs UQAM
+Updated existing game: Laval vs Concordia
+Updated existing game: Brock vs Western
+Updated existing game: Toronto vs Queen's
+Updated existing game: Brock vs Queen's
+Updated existing game: UQAM vs Concordia
+Updated existing game: #6 Ottawa vs #3 UQAM
+Updated existing game: #7 Winnipeg vs #2 Queen's
+Updated existing game: #1 Victoria vs #8 Laval
+Updated existing game: #5 Dalhousie vs #4 Brock
+Updated existing game: Winnipeg vs UQAM
+Updated existing game: Brock vs Victoria
+Updated existing game: Ottawa vs Queen's
+Updated existing game: Dalhousie vs Laval
+Updated existing game: UQAM vs Victoria
+Updated existing game: Ottawa vs Dalhousie
+Updated existing game: Queen's vs Laval
+Updated existing game: UPEI vs Memorial
+Updated existing game: StFX vs Dalhousie
+Updated existing game: UNB vs Cape Breton
+Updated existing game: Carleton vs Waterloo
+Updated existing game: Western vs Ontario Tech
+Updated existing game: Ottawa vs Laurier
+Updated existing game: Nipissing vs Guelph
+Updated existing game: Toronto Metropolitan vs Toronto
+Updated existing game: Windsor vs Queen's
+Updated existing game: McMaster vs Lakehead
+Updated existing game: Winnipeg vs Brandon
+Updated existing game: Mount Royal vs MacEwan
+Updated existing game: Regina vs Lethbridge
+Updated existing game: Saskatchewan vs Calgary
+Updated existing game: UNBC vs UBC Okanagan
+Updated existing game: UNB vs Cape Breton
+Updated existing game: Mount Royal vs MacEwan
+Updated existing game: Windsor vs Ontario Tech
+Updated existing game: Brock vs Laurentian
+Updated existing game: Ottawa vs Waterloo
+Updated existing game: Algoma vs Toronto Metropolitan
+Updated existing game: Western vs Queen's
+Updated existing game: UPEI vs Memorial
+Updated existing game: Saint Mary's vs Acadia
+Updated existing game: McMaster vs Lakehead
+Updated existing game: Carleton vs Laurier
+Updated existing game: Regina vs Lethbridge
+Updated existing game: Trinity Western vs UBC
+Updated existing game: Saskatchewan vs Calgary
+Updated existing game: UFV vs Victoria
+Updated existing game: Algoma vs Toronto
+Updated existing game: Brock vs Nipissing
+Updated existing game: Brandon vs Manitoba
+Updated existing game: Thompson Rivers vs UNBC
+Updated existing game: Guelph vs Toronto Metropolitan
+Updated existing game: Waterloo vs Toronto
+Updated existing game: Cape Breton vs StFX
+Updated existing game: Laval vs McGill
+Updated existing game: Bishop's vs Concordia
+Updated existing game: Acadia vs UPEI
+Updated existing game: Memorial vs Saint Mary's
+Updated existing game: Laurier vs Laurentian
+Updated existing game: Lakehead vs Windsor
+Updated existing game: McMaster vs Western
+Updated existing game: Queen's vs Algoma
+Updated existing game: Manitoba vs Saskatchewan
+Updated existing game: Brandon vs Regina
+Updated existing game: Calgary vs Alberta
+Updated existing game: Trinity Western vs Mount Royal
+Updated existing game: UBC vs Thompson Rivers
+Updated existing game: UBC Okanagan vs UFV
+Updated existing game: UNBC vs Victoria
+Updated existing game: Memorial vs Saint Mary's
+Updated existing game: Acadia vs UPEI
+Updated existing game: McMaster vs Windsor
+Updated existing game: Concordia vs McGill
+Updated existing game: Dalhousie vs UNB
+Updated existing game: StFX vs Cape Breton
+Updated existing game: UQAM vs Laval
+Updated existing game: Lakehead vs Western
+Updated existing game: Laurier vs Nipissing
+Updated existing game: York vs Ottawa
+Updated existing game: Toronto vs Guelph
+Updated existing game: Waterloo vs Brock
+Updated existing game: Ontario Tech vs Algoma
+Updated existing game: Manitoba vs Saskatchewan
+Updated existing game: UBC Okanagan vs UFV
+Updated existing game: Brandon vs Regina
+Updated existing game: Trinity Western vs Mount Royal
+Updated existing game: Calgary vs Alberta
+Updated existing game: UBC vs Thompson Rivers
+Updated existing game: UNBC vs Victoria
+Updated existing game: Dalhousie vs UNB
+Updated existing game: York vs Carleton
+Updated existing game: Western vs Toronto Metropolitan
+Updated existing game: Windsor vs Toronto
+Updated existing game: Bishop's vs UQAM
+Updated existing game: Queen's vs Waterloo
+Updated existing game: Cape Breton vs Dalhousie
+Updated existing game: StFX vs UNB
+Updated existing game: Saint Mary's vs UPEI
+Updated existing game: Acadia vs Memorial
+Updated existing game: Algoma vs Carleton
+Updated existing game: Ottawa vs Brock
+Updated existing game: Ontario Tech vs Laurier
+Updated existing game: Laurentian vs York
+Updated existing game: Nipissing vs McMaster
+Updated existing game: Guelph vs Lakehead
+Updated existing game: UNBC vs Regina
+Updated existing game: Lethbridge vs Brandon
+Updated existing game: Alberta vs Saskatchewan
+Updated existing game: MacEwan vs Calgary
+Updated existing game: Winnipeg vs Mount Royal
+Updated existing game: Trinity Western vs UBC Okanagan
+Updated existing game: UFV vs Thompson Rivers
+Updated existing game: Victoria vs UBC
+Updated existing game: StFX vs UNB
+Updated existing game: Concordia vs UQAM
+Updated existing game: Saint Mary's vs UPEI
+Updated existing game: Windsor vs Toronto Metropolitan
+Updated existing game: Acadia vs Memorial
+Updated existing game: Cape Breton vs Dalhousie
+Updated existing game: Nipissing vs York
+Updated existing game: McGill vs Laval
+Updated existing game: Queen's vs Laurier
+Updated existing game: Ontario Tech vs Waterloo
+Updated existing game: Laurentian vs McMaster
+Updated existing game: Western vs Toronto
+Updated existing game: Alberta vs Saskatchewan
+Updated existing game: Lethbridge vs Brandon
+Updated existing game: UNBC vs Regina
+Updated existing game: MacEwan vs Calgary
+Updated existing game: Winnipeg vs Mount Royal
+Updated existing game: UFV vs Thompson Rivers
+Updated existing game: Trinity Western vs UBC Okanagan
+Updated existing game: Victoria vs UBC
+Updated existing game: Algoma vs Ottawa
+Updated existing game: Carleton vs Brock
+Updated existing game: Laurier vs Brock
+Updated existing game: York vs Waterloo
+Updated existing game: McGill vs Bishop's
+Updated existing game: Dalhousie vs Memorial
+Updated existing game: UPEI vs Cape Breton
+Updated existing game: UNB vs Acadia
+Updated existing game: Toronto vs Queen's
+Updated existing game: McMaster vs Ottawa
+Updated existing game: Guelph vs Carleton
+Updated existing game: Toronto Metropolitan vs Laurier
+Updated existing game: Laurentian vs Windsor
+Updated existing game: Nipissing vs Western
+Updated existing game: Lakehead vs Ontario Tech
+Updated existing game: Alberta vs Brandon
+Updated existing game: Regina vs Manitoba
+Updated existing game: MacEwan vs Winnipeg
+Updated existing game: Mount Royal vs Lethbridge
+Updated existing game: Calgary vs UBC
+Updated existing game: UBC Okanagan vs UNBC
+Updated existing game: Victoria vs UFV
+Updated existing game: Thompson Rivers vs Trinity Western
+Updated existing game: York vs Algoma
+Updated existing game: Laval vs Concordia
+Updated existing game: UQAM vs McGill
+Updated existing game: Lakehead vs Queen's
+Updated existing game: Nipissing vs Windsor
+Updated existing game: MacEwan vs Winnipeg
+Updated existing game: Dalhousie vs Memorial
+Updated existing game: UPEI vs StFX
+Updated existing game: UNB vs Saint Mary's
+Updated existing game: McMaster vs Carleton
+Updated existing game: Waterloo vs Toronto Metropolitan
+Updated existing game: Toronto vs Ontario Tech
+Updated existing game: Guelph vs Ottawa
+Updated existing game: Laurentian vs Western
+Updated existing game: Regina vs Manitoba
+Updated existing game: Alberta vs Brandon
+Updated existing game: Victoria vs UFV
+Updated existing game: Mount Royal vs Lethbridge
+Updated existing game: Calgary vs UBC
+Updated existing game: Thompson Rivers vs Trinity Western
+Updated existing game: UBC Okanagan vs UNBC
+Updated existing game: Brock vs Algoma
+Updated existing game: StFX vs Saint Mary's
+Updated existing game: Brock vs Western
+Updated existing game: Regina vs Mount Royal
+Updated existing game: UQAM vs Bishop's
+Updated existing game: Ottawa vs Toronto
+Updated existing game: Brandon vs MacEwan
+Updated existing game: Memorial vs Cape Breton
+Updated existing game: UPEI vs UNB
+Updated existing game: Laurier vs Lakehead
+Updated existing game: Ontario Tech vs Guelph
+Updated existing game: Waterloo vs Nipissing
+Updated existing game: Queen's vs York
+Updated existing game: Lethbridge vs Manitoba
+Updated existing game: Calgary vs UNBC
+Updated existing game: Regina vs Mount Royal
+Updated existing game: Winnipeg vs Alberta
+Updated existing game: UBC vs UBC Okanagan
+Updated existing game: Saskatchewan vs Thompson Rivers
+Updated existing game: UFV vs Trinity Western
+Updated existing game: Memorial vs Cape Breton
+Updated existing game: Laval vs UQAM
+Updated existing game: Ottawa vs Toronto Metropolitan
+Updated existing game: Calgary vs UNBC
+Updated existing game: Queen's vs McMaster
+Updated existing game: StFX vs Acadia
+Updated existing game: Saint Mary's vs Dalhousie
+Updated existing game: Brandon vs MacEwan
+Updated existing game: Waterloo vs Laurentian
+Updated existing game: York vs Guelph
+Updated existing game: Carleton vs Lakehead
+Updated existing game: Concordia vs Bishop's
+Updated existing game: Brock vs Windsor
+Updated existing game: Lethbridge vs Manitoba
+Updated existing game: Winnipeg vs Alberta
+Updated existing game: Saskatchewan vs Thompson Rivers
+Updated existing game: UFV vs UBC Okanagan
+Updated existing game: Ottawa vs Carleton
+Updated existing game: Manitoba vs Winnipeg
+Updated existing game: Bishop's vs Laval
+Skipping game, couldn't find team: Thompson Rivers or Hope International
+  - Home team "Thompson Rivers" maps to ID: 71
+  - Away team "Hope International" maps to ID: null
+Skipping game, couldn't find team: Thompson Rivers or Westcliff
+  - Home team "Thompson Rivers" maps to ID: 71
+  - Away team "Westcliff" maps to ID: null
+Skipping game, couldn't find team: York or Humber College
+  - Home team "York" maps to ID: 91
+  - Away team "Humber College" maps to ID: null
+Skipping game, couldn't find team: Western or Mohawk College
+  - Home team "Western" maps to ID: 83
+  - Away team "Mohawk College" maps to ID: null
+Skipping game, couldn't find team: Algonquin or Nipissing
+  - Home team "Algonquin" maps to ID: null
+  - Away team "Nipissing" maps to ID: 76
+Skipping game, couldn't find team: Guelph or Sheridan College
+  - Home team "Guelph" maps to ID: 81
+  - Away team "Sheridan College" maps to ID: null
+Skipping game, couldn't find team: York or Mohawk College
+  - Home team "York" maps to ID: 91
+  - Away team "Mohawk College" maps to ID: null
+Skipping game, couldn't find team: Western or Humber College
+  - Home team "Western" maps to ID: 83
+  - Away team "Humber College" maps to ID: null
+Inserted new game: Nipissing vs Guelph
+Skipping game, couldn't find team: Mount Royal or Benedictine Mesa
+  - Home team "Mount Royal" maps to ID: 59
+  - Away team "Benedictine Mesa" maps to ID: null
+Updated existing game: Lakehead vs Winnipeg
+Skipping game, couldn't find team: UNBC or Vancouver Island University
+  - Home team "UNBC" maps to ID: 56
+  - Away team "Vancouver Island University" maps to ID: null
+Updated existing game: Lakehead vs Winnipeg
+Skipping game, couldn't find team: St. Thomas or UPEI
+  - Home team "St. Thomas" maps to ID: null
+  - Away team "UPEI" maps to ID: 55
+Updated existing game: McGill vs Carleton
+Updated existing game: MacEwan vs Trinity Western
+Inserted new game: Trinity Western vs Thompson Rivers
+Skipping game, couldn't find team: Mount Royal or Justice College
+  - Home team "Mount Royal" maps to ID: 59
+  - Away team "Justice College" maps to ID: null
+Skipping game, couldn't find team: UNBC or Vancouver Island University
+  - Home team "UNBC" maps to ID: 56
+  - Away team "Vancouver Island University" maps to ID: null
+Updated existing game: Concordia vs Ottawa
+Updated existing game: Bishop's vs Carleton
+Updated existing game: MacEwan vs UBC
+Updated existing game: Laurentian vs Nipissing
+Updated existing game: StFX vs Dalhousie
+Updated existing game: York vs Brock
+Updated existing game: McMaster vs Guelph
+Updated existing game: McGill vs UQAM
+Updated existing game: UPEI vs Saint Mary's
+Updated existing game: Dalhousie vs StFX
+Updated existing game: Cape Breton vs UNB
+Updated existing game: Memorial vs Acadia
+Updated existing game: Ottawa vs Lakehead
+Updated existing game: Windsor vs Waterloo
+Updated existing game: Nipissing vs Ontario Tech
+Updated existing game: Western vs Algoma
+Updated existing game: Carleton vs Toronto
+Updated existing game: Concordia vs Laval
+Updated existing game: Laurentian vs Queen's
+Updated existing game: MacEwan vs Regina
+Updated existing game: Mount Royal vs Saskatchewan
+Updated existing game: Calgary vs Winnipeg
+Updated existing game: Manitoba vs Brandon
+Updated existing game: Alberta vs Lethbridge
+Updated existing game: Thompson Rivers vs UBC
+Updated existing game: UNBC vs UFV
+Updated existing game: Trinity Western vs Victoria
+Updated existing game: Cape Breton vs UNB
+Updated existing game: Western vs Algoma
+Updated existing game: UPEI vs Saint Mary's
+Updated existing game: Windsor vs Laurier
+Updated existing game: Guelph vs Waterloo
+Updated existing game: UQAM vs McGill
+Updated existing game: Calgary vs Winnipeg
+Updated existing game: Memorial vs Acadia
+Updated existing game: Nipissing vs Queen's
+Updated existing game: Carleton vs Toronto Metropolitan
+Updated existing game: York vs Toronto
+Updated existing game: Laurentian vs Ontario Tech
+Updated existing game: Manitoba vs Brandon
+Updated existing game: Mount Royal vs Saskatchewan
+Updated existing game: Thompson Rivers vs UFV
+Updated existing game: MacEwan vs Regina
+Updated existing game: Alberta vs Lethbridge
+Updated existing game: UNBC vs UBC
+Updated existing game: Trinity Western vs Victoria
+Updated existing game: Brock vs Toronto Metropolitan
+Updated existing game: Queen's vs Ontario Tech
+Updated existing game: Bishop's vs UQAM
+Updated existing game: Concordia vs McGill
+Updated existing game: Trinity Western vs Thompson Rivers
+Updated existing game: Victoria vs UNBC
+Updated existing game: Acadia vs Cape Breton
+Updated existing game: Saint Mary's vs UNB
+Updated existing game: Guelph vs Western
+Updated existing game: Algoma vs Laurier
+Updated existing game: Toronto Metropolitan vs Lakehead
+Updated existing game: York vs Windsor
+Updated existing game: Ottawa vs Laurentian
+Updated existing game: Carleton vs Nipissing
+Updated existing game: McMaster vs Brock
+Updated existing game: Mount Royal vs Brandon
+Updated existing game: Saskatchewan vs Winnipeg
+Updated existing game: Lethbridge vs MacEwan
+Updated existing game: UBC Okanagan vs Alberta
+Updated existing game: Manitoba vs Calgary
+Updated existing game: UFV vs UBC
+Updated existing game: Ontario Tech vs Queen's
+Updated existing game: McGill vs Concordia
+Updated existing game: Algoma vs Laurier
+Updated existing game: Guelph vs Windsor
+Updated existing game: Saskatchewan vs Winnipeg
+Updated existing game: Dalhousie vs UPEI
+Updated existing game: Acadia vs StFX
+Updated existing game: Lethbridge vs MacEwan
+Updated existing game: Carleton vs Laurentian
+Updated existing game: Toronto Metropolitan vs Lakehead
+Updated existing game: UQAM vs Bishop's
+Updated existing game: Ottawa vs Nipissing
+Updated existing game: Waterloo vs McMaster
+Updated existing game: York vs Western
+Updated existing game: Mount Royal vs Brandon
+Updated existing game: Manitoba vs Calgary
+Updated existing game: UBC Okanagan vs Alberta
+Updated existing game: Victoria vs Thompson Rivers
+Updated existing game: UFV vs UBC
+Updated existing game: Trinity Western vs UNBC
+Updated existing game: Toronto vs Brock
+Updated existing game: Algoma vs McMaster
+Updated existing game: Western vs Guelph
+Updated existing game: Laurier vs Toronto
+Updated existing game: StFX vs Cape Breton
+Updated existing game: Bishop's vs McGill
+Updated existing game: UQAM vs Laval
+Updated existing game: UBC vs Victoria
+Updated existing game: UBC Okanagan vs Trinity Western
+Updated existing game: Saint Mary's vs Memorial
+Updated existing game: UPEI vs Acadia
+Updated existing game: UNB vs Dalhousie
+Updated existing game: Waterloo vs Laurier
+Updated existing game: Lakehead vs York
+Updated existing game: Brock vs Ontario Tech
+Updated existing game: Laurentian vs Carleton
+Updated existing game: Toronto Metropolitan vs Queen's
+Updated existing game: Windsor vs Algoma
+Updated existing game: Nipissing vs Ottawa
+Updated existing game: UNBC vs Thompson Rivers
+Updated existing game: Lethbridge vs Saskatchewan
+Updated existing game: Alberta vs Manitoba
+Updated existing game: Winnipeg vs Regina
+Updated existing game: Calgary vs Mount Royal
+Updated existing game: MacEwan vs UFV
+Updated existing game: UNB vs Dalhousie
+Updated existing game: UPEI vs Acadia
+Updated existing game: Laval vs UQAM
+Updated existing game: Windsor vs Algoma
+Updated existing game: Laurentian vs Ottawa
+Updated existing game: Brock vs Queen's
+Updated existing game: Waterloo vs Guelph
+Updated existing game: Saint Mary's vs Memorial
+Updated existing game: Cape Breton vs StFX
+Updated existing game: UBC Okanagan vs Victoria
+Updated existing game: Nipissing vs Carleton
+Updated existing game: Toronto Metropolitan vs Ontario Tech
+Updated existing game: Lakehead vs York
+Updated existing game: McGill vs Bishop's
+Updated existing game: McMaster vs Toronto
+Updated existing game: Lethbridge vs Saskatchewan
+Updated existing game: Alberta vs Manitoba
+Updated existing game: MacEwan vs UFV
+Updated existing game: Winnipeg vs Regina
+Updated existing game: Calgary vs Mount Royal
+Updated existing game: UNBC vs Thompson Rivers
+Updated existing game: Western vs Waterloo
+Updated existing game: Toronto vs Toronto Metropolitan
+Updated existing game: Laval vs Bishop's
+Updated existing game: UQAM vs Concordia
+Updated existing game: Thompson Rivers vs UBC Okanagan
+Updated existing game: UFV vs UNBC
+Updated existing game: Cape Breton vs Acadia
+Updated existing game: Memorial vs UNB
+Updated existing game: Laurentian vs Algoma
+Updated existing game: Ontario Tech vs Carleton
+Updated existing game: Western vs Laurier
+Updated existing game: Windsor vs Guelph
+Updated existing game: Lakehead vs Brock
+Updated existing game: York vs McMaster
+Updated existing game: Queen's vs Ottawa
+Updated existing game: Winnipeg vs Manitoba
+Updated existing game: Saskatchewan vs MacEwan
+Updated existing game: Regina vs Alberta
+Updated existing game: Brandon vs Calgary
+Updated existing game: Victoria vs Lethbridge
+Updated existing game: UBC vs Trinity Western
+Updated existing game: Memorial vs UNB
+Updated existing game: Concordia vs UQAM
+Updated existing game: Thompson Rivers vs UBC Okanagan
+Updated existing game: Ontario Tech vs Ottawa
+Updated existing game: Cape Breton vs Saint Mary's
+Updated existing game: StFX vs UPEI
+Updated existing game: Saskatchewan vs MacEwan
+Updated existing game: Laurier vs Waterloo
+Updated existing game: Nipissing vs Algoma
+Updated existing game: McMaster vs Toronto Metropolitan
+Updated existing game: Toronto vs York
+Updated existing game: Queen's vs Carleton
+Updated existing game: Bishop's vs Laval
+Updated existing game: Lakehead vs Brock
+Updated existing game: Manitoba vs Winnipeg
+Updated existing game: Victoria vs Lethbridge
+Updated existing game: Regina vs Alberta
+Updated existing game: UBC vs Trinity Western
+Updated existing game: Brandon vs Calgary
+Updated existing game: UFV vs UNBC
+Updated existing game: Dalhousie vs Acadia
+Updated existing game: Acadia vs Dalhousie
+Updated existing game: Western vs Windsor
+Updated existing game: McMaster vs York
+Updated existing game: Laurier vs Guelph
+Updated existing game: Toronto Metropolitan vs Brock
+Updated existing game: Bishop's vs Concordia
+Updated existing game: McGill vs Laval
+Updated existing game: UNB vs UPEI
+Updated existing game: Saint Mary's vs Cape Breton
+Updated existing game: Carleton vs Ottawa
+Updated existing game: Toronto vs Lakehead
+Updated existing game: Queen's vs Nipissing
+Updated existing game: Ontario Tech vs Laurentian
+Updated existing game: Algoma vs Waterloo
+Updated existing game: Saskatchewan vs Regina
+Updated existing game: Brandon vs Winnipeg
+Updated existing game: Manitoba vs MacEwan
+Updated existing game: Alberta vs Mount Royal
+Updated existing game: Lethbridge vs Calgary
+Updated existing game: UBC Okanagan vs UBC
+Updated existing game: Thompson Rivers vs Victoria
+Updated existing game: UNBC vs Trinity Western
+Updated existing game: Brock vs McMaster
+Updated existing game: Queen's vs Laurentian
+Updated existing game: Guelph vs Laurier
+Updated existing game: Algoma vs Waterloo
+Updated existing game: Laval vs McGill
+Updated existing game: Brandon vs Winnipeg
+Updated existing game: UPEI vs Dalhousie
+Updated existing game: Saint Mary's vs StFX
+Updated existing game: Manitoba vs MacEwan
+Updated existing game: York vs Toronto Metropolitan
+Updated existing game: Windsor vs Western
+Updated existing game: Toronto vs Lakehead
+Updated existing game: Concordia vs Bishop's
+Updated existing game: Ontario Tech vs Nipissing
+Updated existing game: Regina vs Saskatchewan
+Updated existing game: Lethbridge vs Calgary
+Updated existing game: Alberta vs Mount Royal
+Updated existing game: UBC Okanagan vs UBC
+Updated existing game: UNBC vs Trinity Western
+Updated existing game: Thompson Rivers vs Victoria
+Updated existing game: Acadia vs Saint Mary's
+Updated existing game: Toronto Metropolitan vs York
+Updated existing game: Nipissing vs Laurentian
+Updated existing game: Laval vs Concordia
+Updated existing game: Memorial vs UPEI
+Updated existing game: Dalhousie vs Cape Breton
+Updated existing game: UNB vs StFX
+Updated existing game: Laurier vs Windsor
+Updated existing game: Ottawa vs Ontario Tech
+Updated existing game: Waterloo vs Western
+Updated existing game: Carleton vs Queen's
+Updated existing game: Guelph vs Algoma
+Updated existing game: Lakehead vs Nipissing
+Updated existing game: Brock vs Toronto
+Updated existing game: Victoria vs UBC Okanagan
+Updated existing game: Mount Royal vs Manitoba
+Updated existing game: Saskatchewan vs Brandon
+Updated existing game: Calgary vs Regina
+Updated existing game: Winnipeg vs Lethbridge
+Updated existing game: MacEwan vs Alberta
+Updated existing game: UBC vs UNBC
+Updated existing game: Trinity Western vs UFV
+Updated existing game: UNB vs StFX
+Updated existing game: Toronto Metropolitan vs McMaster
+Updated existing game: UQAM vs Concordia
+Updated existing game: Guelph vs Algoma
+Updated existing game: Memorial vs UPEI
+Updated existing game: Bishop's vs McGill
+Updated existing game: Ottawa vs Queen's
+Updated existing game: Waterloo vs Windsor
+Updated existing game: Dalhousie vs Cape Breton
+Updated existing game: Saint Mary's vs Acadia
+Updated existing game: Victoria vs UBC Okanagan
+Updated existing game: Carleton vs Ontario Tech
+Updated existing game: Brock vs York
+Updated existing game: Laurier vs Western
+Updated existing game: Lakehead vs Laurentian
+Updated existing game: Saskatchewan vs Brandon
+Updated existing game: Mount Royal vs Manitoba
+Updated existing game: Trinity Western vs UFV
+Updated existing game: Calgary vs Regina
+Updated existing game: MacEwan vs Alberta
+Updated existing game: Winnipeg vs Lethbridge
+Updated existing game: UBC vs UNBC
+Updated existing game: Toronto vs McMaster
+Updated existing game: Guelph vs Toronto Metropolitan
+Updated existing game: Laurentian vs Windsor
+Updated existing game: Waterloo vs Carleton
+Updated existing game: Ontario Tech vs Brock
+Updated existing game: McGill vs Concordia
+Updated existing game: Laval vs Bishop's
+Updated existing game: Brandon vs Trinity Western
+Updated existing game: Alberta vs Thompson Rivers
+Updated existing game: StFX vs Memorial
+Updated existing game: Acadia vs UNB
+Updated existing game: Dalhousie vs Saint Mary's
+Updated existing game: UFV vs Lethbridge
+Updated existing game: Mount Royal vs Winnipeg
+Updated existing game: Concordia vs Laval
+Updated existing game: Carleton vs Queen's
+Updated existing game: McGill vs UQAM
+Updated existing game: StFX vs Memorial
+Updated existing game: Cape Breton vs UPEI
+Updated existing game: Ontario Tech vs Lakehead
+Updated existing game: Toronto Metropolitan vs Western
+Updated existing game: Laurentian vs Ottawa
+Updated existing game: Thompson Rivers vs Manitoba
+Updated existing game: Trinity Western vs Calgary
+Updated existing game: Winnipeg vs UBC
+Updated existing game: UFV vs Victoria
+Updated existing game: UQAM vs Concordia
+Updated existing game: Laval vs Bishop's
+Updated existing game: Memorial vs UNB
+Updated existing game: Saint Mary's vs Cape Breton
+Updated existing game: Calgary vs Victoria
+Updated existing game: UNB vs StFX
+Updated existing game: Ontario Tech vs Queen's
+Updated existing game: Concordia vs Bishop's
+Updated existing game: Cape Breton vs UPEI
+Updated existing game: Toronto Metropolitan vs Ottawa
+Updated existing game: UBC vs Manitoba
+Updated existing game: UPEI vs StFX
+Updated existing game: Victoria vs Manitoba
+Updated existing game: UBC vs Calgary
+Updated existing game: Ottawa vs Queen's
+Done! Inserted/updated 1207 games. Skipped 96 games. TBD games: 11

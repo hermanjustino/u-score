@@ -119,12 +119,14 @@ app.get('/api/games/:gender', async (req, res) => {
 app.get('/api/scores/:gender', async (req, res) => {
   try {
     const { gender } = req.params;
-    console.log('Fetching scores for gender:', gender);
     const result = await getScores(pool, gender);
+    
+    console.log(`Retrieved ${result.rowCount} scores for ${gender}`);
+    
     res.json(result.rows);
-  } catch (err) {
-    console.error('Error:', err);
-    res.status(500).json({ error: 'Failed to fetch scores' });
+  } catch (error) {
+    console.error('Error fetching scores:', error);
+    res.status(500).json({ error: error.message });
   }
 });
 

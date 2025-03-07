@@ -52,3 +52,46 @@
     font-size: 0.9em;
     color: #aaa;
   }
+
+  .exhibition-game {
+    background-color: #f8f9fa;
+    border-left: 4px solid #6c757d;
+    position: relative;
+  }
+  
+  .exhibition-label {
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+  
+  .game-date-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .game-date-header {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .games-for-date {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .game-date-time {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .game-time {
+    font-weight: 500;
+  }
