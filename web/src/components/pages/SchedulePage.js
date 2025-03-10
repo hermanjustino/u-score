@@ -218,7 +218,7 @@ const SchedulePage = () => {
               className={`date-option ${isSameDay(date, selectedDate) ? 'active' : ''}`}
               onClick={() => setSelectedDate(date)}
             >
-              {format(date, 'EEE, MMM d')}
+              {format(date, 'MMM d')}
             </button>
           ))}
           {visibleDates.length === 0 && (

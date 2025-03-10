@@ -1,13 +1,18 @@
 const express = require('express');
 const cors = require('cors');
 const { Pool } = require('pg');
+const multer = require('multer');
+
+// Import all helpers
 const { getStandings } = require('./db/helpers/get_standings_helper');
 const { getSchedule } = require('./db/helpers/get_schedule_helper');
 const { getAllGames } = require('./db/helpers/get_games_helper');
 const { getScores } = require('./db/helpers/get_scores_helper');
+const { getTeamsByGender, getTeamById, updateTeamLogo } = require('./db/helpers/teams_helper');
 
 const app = express();
 const port = 5001;
+const upload = multer();
 
 // Middleware
 app.use(cors());
@@ -36,21 +41,14 @@ pool.connect((err, client, release) => {
 app.get('/api/teams', async (req, res) => {
   try {
     const { gender } = req.query;
-    console.log('Request gender:', gender); // Debug log
+    console.log('Request gender:', gender);
 
     if (!gender) {
       return res.status(400).json({ message: 'Gender parameter is required' });
     }
 
-    const query = {
-      text: 'SELECT * FROM teams WHERE gender = $1 ORDER BY conference, university',
-      values: [gender],
-    };
-
-    console.log('Executing query:', query); // Debug log
-    const result = await pool.query(query);
-    console.log(`Found ${result.rows.length} teams`); // Debug log
-
+    const result = await getTeamsByGender(pool, gender);
+    console.log(`Found ${result.rows.length} teams`);
     res.json(result.rows);
   } catch (err) {
     console.error('Database error:', err);
@@ -62,10 +60,7 @@ app.get('/api/teams', async (req, res) => {
 app.get('/api/teams/:id', async (req, res) => {
   try {
     const { id } = req.params;
-    const result = await pool.query(
-      'SELECT * FROM teams WHERE id = $1',
-      [id]
-    );
+    const result = await getTeamById(pool, id);
 
     if (result.rows.length === 0) {
       return res.status(404).json({ message: 'Team not found' });
@@ -89,7 +84,6 @@ app.get('/api/standings/:gender', async (req, res) => {
     res.status(500).json({ error: 'Server error' });
   }
 });
-
 
 // Get Team Schedule
 app.get('/api/teams/:id/schedule', async (req, res) => {
@@ -120,19 +114,13 @@ app.get('/api/scores/:gender', async (req, res) => {
   try {
     const { gender } = req.params;
     const result = await getScores(pool, gender);
-    
     console.log(`Retrieved ${result.rowCount} scores for ${gender}`);
-    
     res.json(result.rows);
   } catch (error) {
     console.error('Error fetching scores:', error);
     res.status(500).json({ error: error.message });
   }
 });
-
-// Logo Upload
-const multer = require('multer');
-const upload = multer();
 
 // Logo Upload endpoint
 app.post('/api/teams/:id/logo', upload.single('logo'), async (req, res) => {
@@ -143,18 +131,13 @@ app.post('/api/teams/:id/logo', upload.single('logo'), async (req, res) => {
       return res.status(400).json({ error: 'No file uploaded' });
     }
 
-    // Log file info
     console.log('File info:', {
       originalname: req.file.originalname,
       mimetype: req.file.mimetype,
       size: req.file.size
     });
 
-    // Update team with logo
-    const result = await pool.query(
-      'UPDATE teams SET logo = $1 WHERE id = $2 RETURNING id',
-      [req.file.buffer, id]
-    );
+    const result = await updateTeamLogo(pool, id, req.file.buffer);
 
     if (result.rowCount === 0) {
       return res.status(404).json({ error: 'Team not found' });
@@ -164,7 +147,6 @@ app.post('/api/teams/:id/logo', upload.single('logo'), async (req, res) => {
       message: 'Logo uploaded successfully',
       teamId: id
     });
-
   } catch (err) {
     console.error('Upload error:', err);
     res.status(500).json({ error: 'Upload failed' });

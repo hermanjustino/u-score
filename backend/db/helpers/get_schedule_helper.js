@@ -1,13 +1,13 @@
-const fs = require('fs').promises;
-const path = require('path');
+const { loadQuery } = require('../../query-loader');
 
-const loadSqlFile = async (filename) => {
-  const filePath = path.join(__dirname, '..', 'queries', filename);
-  return await fs.readFile(filePath, 'utf8');
-};
-
+/**
+ * Get schedule data for a specific team
+ * @param {object} pool - PostgreSQL connection pool
+ * @param {number} teamId - Team ID to fetch schedule for
+ * @returns {Promise<object>} Query result with schedule data
+ */
 const getSchedule = async (pool, teamId) => {
-  const query = await loadSqlFile('get_schedule.sql');
+  const query = await loadQuery('get_schedule');
   return pool.query(query, [teamId]);
 };
 
