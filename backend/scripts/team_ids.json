@@ -1,0 +1,390 @@
+{
+  "men": {
+    "victoria": {
+      "id": "e323vdchcustu2v8",
+      "url": "victoria"
+    },
+    "ubc": {
+      "id": "rbm4zkr1x9m6ukj9",
+      "url": "ubc"
+    },
+    "ubcokanagan": {
+      "id": "chamh364n48hfii5",
+      "url": "ubcokanagan"
+    },
+    "unbc": {
+      "id": "htwrf7d5zc43gczv",
+      "url": "unbc"
+    },
+    "thompsonrivers": {
+      "id": "t3kja5c6kg1l7k37",
+      "url": "thompsonrivers"
+    },
+    "ufv": {
+      "id": "o8666guc3uds2u5o",
+      "url": "ufv"
+    },
+    "trinitywestern": {
+      "id": "paqvtlbxgu1vtje5",
+      "url": "trinitywestern"
+    },
+    "manitoba": {
+      "id": "kzw69txjxc1gnyv1",
+      "url": "manitoba"
+    },
+    "winnipeg": {
+      "id": "ho1wbw648p0me942",
+      "url": "winnipeg"
+    },
+    "regina": {
+      "id": "980lafmggn4pux16",
+      "url": "regina"
+    },
+    "saskatchewan": {
+      "id": "4tpmyvhznjxrvq4i",
+      "url": "saskatchewan"
+    },
+    "calgary": {
+      "id": "zm8bb5oopezcxkkc",
+      "url": "calgary"
+    },
+    "alberta": {
+      "id": "q75v7cu1qyar525b",
+      "url": "alberta"
+    },
+    "lethbridge": {
+      "id": "dspprpwjotoy5obv",
+      "url": "lethbridge"
+    },
+    "macewan": {
+      "id": "9ptg3yvb4jjvfgdz",
+      "url": "macewan"
+    },
+    "mountroyal": {
+      "id": "7kugnfckzhr9qep2",
+      "url": "mountroyal"
+    },
+    "brandon": {
+      "id": "b6e7g4ys0ktp1aow",
+      "url": "mountroyal"
+    },
+    "torontometropolitan": {
+      "id": "f74r5mu338w589qb",
+      "url": "torontometropolitan"
+    },
+    "york": {
+      "id": "te8p1xqb6b8z61y0",
+      "url": "york"
+    },
+    "toronto": {
+      "id": "8f877em4xltgfk1k",
+      "url": "toronto"
+    },
+    "nipissing": {
+      "id": "ffqyi4a9hgisive3",
+      "url": "nipissingu"
+    },
+    "ontariotech": {
+      "id": "lg428aa3fp9qjuge",
+      "url": "ontariotech"
+    },
+    "brock": {
+      "id": "w5jeddtyr3xxyzl7",
+      "url": "brock"
+    },
+    "guelph": {
+      "id": "xzz0nj6picjmclme",
+      "url": "guelph"
+    },
+    "lakehead": {
+      "id": "saqxfdlaocfw0xkp",
+      "url": "lakehead"
+    },
+    "mcmaster": {
+      "id": "121xknt675mbylz6",
+      "url": "mcmaster"
+    },
+    "waterloo": {
+      "id": "2i51250sg10gejh4",
+      "url": "waterloo"
+    },
+    "western": {
+      "id": "e9lefqoftnwjg6s8",
+      "url": "western"
+    },
+    "windsor": {
+      "id": "kesar8tkp5tkrkai",
+      "url": "windsor"
+    },
+    "laurier": {
+      "id": "hkmqhghu9tqk834o",
+      "url": "laurier"
+    },
+    "carleton": {
+      "id": "r30x3rx4fu1odi2p",
+      "url": "carleton"
+    },
+    "ottawa": {
+      "id": "7phws5v01eksuipa",
+      "url": "ottawa"
+    },
+    "queens": {
+      "id": "ljeqodc1maqg14nr",
+      "url": "queens"
+    },
+    "algoma": {
+      "id": "nydlqtgbdd3hyzc8",
+      "url": "algoma"
+    },
+    "laurentian": {
+      "id": "0gqe1ytdqpzszay7",
+      "url": "laurentian"
+    },
+    "concordia": {
+      "id": "0k4i0ccei523vlm3",
+      "url": "concordia"
+    },
+    "mcgill": {
+      "id": "0c9on6rrtwrilkur",
+      "url": "mcgill"
+    },
+    "bishops": {
+      "id": "qcs7pz9glidqf06w",
+      "url": "bishops"
+    },
+    "laval": {
+      "id": "uv1rw1dzqely29yh",
+      "url": "laval"
+    },
+    "uqam": {
+      "id": "f8owo1rc72wi0s5s",
+      "url": "uqam"
+    },
+    "acadia": {
+      "id": "y8yj0hcukqaoj6x5",
+      "url": "acadia"
+    },
+    "capebreton": {
+      "id": "jzwvtlajamp707w3",
+      "url": "capebreton"
+    },
+    "dalhousie": {
+      "id": "dqm6sqc3xctwt4h1",
+      "url": "dalhousie"
+    },
+    "memorial": {
+      "id": "aitjdik6l0tgyqkw",
+      "url": "memorial"
+    },
+    "stfx": {
+      "id": "u2hxywj1qwvphyfj",
+      "url": "stfx"
+    },
+    "saintmarys": {
+      "id": "8j6csvfgsvybr73w",
+      "url": "saintmarys"
+    },
+    "unb": {
+      "id": "m369vdns1f3t56p6",
+      "url": "unb"
+    },
+    "upei": {
+      "id": "s0wpxor7o0x8hxf8",
+      "url": "upei"
+    }
+  },
+  "women": {
+  "victoria": {
+    "id": "",
+    "url": "victoria"
+  },
+  "ubc": {
+    "id": "",
+    "url": "ubc"
+  },
+  "ubcokanagan": {
+    "id": "",
+    "url": "ubcokanagan"
+  },
+  "unbc": {
+    "id": "",
+    "url": "unbc"
+  },
+  "thompsonrivers": {
+    "id": "",
+    "url": "thompsonrivers"
+  },
+  "ufv": {
+    "id": "",
+    "url": "ufv"
+  },
+  "trinitywestern": {
+    "id": "",
+    "url": "trinitywestern"
+  },
+  "manitoba": {
+    "id": "",
+    "url": "manitoba"
+  },
+  "winnipeg": {
+    "id": "",
+    "url": "winnipeg"
+  },
+  "regina": {
+    "id": "",
+    "url": "regina"
+  },
+  "saskatchewan": {
+    "id": "",
+    "url": "saskatchewan"
+  },
+  "calgary": {
+    "id": "",
+    "url": "calgary"
+  },
+  "alberta": {
+    "id": "",
+    "url": "alberta"
+  },
+  "lethbridge": {
+    "id": "",
+    "url": "lethbridge"
+  },
+  "macewan": {
+    "id": "",
+    "url": "macewan"
+  },
+  "mountroyal": {
+    "id": "",
+    "url": "mountroyal"
+  },
+  "brandon": {
+    "id": "",
+    "url": "brandon"
+  },
+  "torontometropolitan": {
+    "id": "",
+    "url": "torontometropolitan"
+  },
+  "york": {
+    "id": "",
+    "url": "york"
+  },
+  "toronto": {
+    "id": "",
+    "url": "toronto"
+  },
+  "nipissing": {
+    "id": "",
+    "url": "nipissing"
+  },
+  "ontariotech": {
+    "id": "",
+    "url": "ontariotech"
+  },
+  "brock": {
+    "id": "",
+    "url": "brock"
+  },
+  "guelph": {
+    "id": "",
+    "url": "guelph"
+  },
+  "lakehead": {
+    "id": "",
+    "url": "lakehead"
+  },
+  "mcmaster": {
+    "id": "",
+    "url": "mcmaster"
+  },
+  "waterloo": {
+    "id": "",
+    "url": "waterloo"
+  },
+  "western": {
+    "id": "",
+    "url": "western"
+  },
+  "windsor": {
+    "id": "",
+    "url": "windsor"
+  },
+  "laurier": {
+    "id": "",
+    "url": "laurier"
+  },
+  "carleton": {
+    "id": "",
+    "url": "carleton"
+  },
+  "ottawa": {
+    "id": "",
+    "url": "ottawa"
+  },
+  "queens": {
+    "id": "",
+    "url": "queens"
+  },
+  "algoma": {
+    "id": "",
+    "url": "algoma"
+  },
+  "laurentian": {
+    "id": "",
+    "url": "laurentian"
+  },
+  "concordia": {
+    "id": "",
+    "url": "concordia"
+  },
+  "mcgill": {
+    "id": "",
+    "url": "mcgill"
+  },
+  "bishops": {
+    "id": "",
+    "url": "bishops"
+  },
+  "laval": {
+    "id": "",
+    "url": "laval"
+  },
+  "uqam": {
+    "id": "",
+    "url": "uqam"
+  },
+  "acadia": {
+    "id": "",
+    "url": "acadia"
+  },
+  "capebreton": {
+    "id": "",
+    "url": "capebreton"
+  },
+  "dalhousie": {
+    "id": "",
+    "url": "dalhousie"
+  },
+  "memorial": {
+    "id": "",
+    "url": "memorial"
+  },
+  "stfx": {
+    "id": "",
+    "url": "stfx"
+  },
+  "saintmarys": {
+    "id": "",
+    "url": "saintmarys"
+  },
+  "unb": {
+    "id": "",
+    "url": "unb"
+  },
+  "upei": {
+    "id": "",
+    "url": "upei"
+  }
+}
+}
