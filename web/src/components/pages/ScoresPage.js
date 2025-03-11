@@ -293,7 +293,7 @@ const ScoresPage = () => {
                           className="team-logo"
                         />
                       )}
-                      <div className="team-name">{game.home_university}</div>
+                      <div className="team-name">{game.home_short_name || game.home_university}</div>
                     </div>
                     <div className="team-score">{game.home_team_score}</div>
                   </div>
@@ -307,7 +307,7 @@ const ScoresPage = () => {
                           className="team-logo"
                         />
                       )}
-                      <div className="team-name">{game.away_university}</div>
+                      <div className="team-name">{game.away_short_name || game.away_university}</div>
                     </div>
                     <div className="team-score">{game.away_team_score}</div>
                   </div>

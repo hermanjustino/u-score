@@ -265,7 +265,7 @@ const SchedulePage = () => {
                           className="team-logo"
                         />
                       )}
-                      <div className="team-name">{game.home_university}</div>
+                      <div className="team-name">{game.home_short_name || game.home_university}</div>
                       {!isFinal && <div className="team-record">(15-5)</div>}
                     </div>
                     {isFinal && <div className="team-score">{game.home_team_score}</div>}
@@ -280,7 +280,7 @@ const SchedulePage = () => {
                           className="team-logo"
                         />
                       )}
-                      <div className="team-name">{game.away_university}</div>
+                      <div className="team-name">{game.away_short_name || game.away_university}</div>
                       {!isFinal && <div className="team-record">(12-8)</div>}
                     </div>
                     {isFinal && <div className="team-score">{game.away_team_score}</div>}
