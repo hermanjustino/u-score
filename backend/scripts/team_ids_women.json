@@ -1,0 +1,184 @@
+{
+    "women": {
+        "acadia": {
+            "id": "dqm6sqc3xctwt4w1",
+            "name": "Acadia Axewomen"
+        },
+        "alberta": {
+            "id": "dqm6sqc3xctwt4w2",
+            "name": "Alberta Pandas"
+        },
+        "bishop": {
+            "id": "dqm6sqc3xctwt4w3",
+            "name": "Bishop's Gaiters"
+        },
+        "brandon": {
+            "id": "dqm6sqc3xctwt4w4",
+            "name": "Brandon Bobcats"
+        },
+        "brock": {
+            "id": "dqm6sqc3xctwt4w5",
+            "name": "Brock Badgers"
+        },
+        "calgary": {
+            "id": "dqm6sqc3xctwt4w6",
+            "name": "Calgary Dinos"
+        },
+        "cape_breton": {
+            "id": "dqm6sqc3xctwt4w7",
+            "name": "Cape Breton Capers"
+        },
+        "carleton": {
+            "id": "dqm6sqc3xctwt4w8",
+            "name": "Carleton Ravens"
+        },
+        "concordia": {
+            "id": "dqm6sqc3xctwt4w9",
+            "name": "Concordia Stingers"
+        },
+        "dalhousie": {
+            "id": "dqm6sqc3xctwt4w10",
+            "name": "Dalhousie Tigers"
+        },
+        "fraser_valley": {
+            "id": "dqm6sqc3xctwt4w11",
+            "name": "Fraser Valley Cascades"
+        },
+        "guelph": {
+            "id": "dqm6sqc3xctwt4w12",
+            "name": "Guelph Gryphons"
+        },
+        "lakehead": {
+            "id": "dqm6sqc3xctwt4w13",
+            "name": "Lakehead Thunderwolves"
+        },
+        "laurentian": {
+            "id": "dqm6sqc3xctwt4w14",
+            "name": "Laurentian Voyageurs"
+        },
+        "laurier": {
+            "id": "dqm6sqc3xctwt4w15",
+            "name": "Laurier Golden Hawks"
+        },
+        "laval": {
+            "id": "dqm6sqc3xctwt4w16",
+            "name": "Laval Rouge et Or"
+        },
+        "lethbridge": {
+            "id": "dqm6sqc3xctwt4w17",
+            "name": "Lethbridge Pronghorns"
+        },
+        "macewan": {
+            "id": "dqm6sqc3xctwt4w18",
+            "name": "MacEwan Griffins"
+        },
+        "manitoba": {
+            "id": "dqm6sqc3xctwt4w19",
+            "name": "Manitoba Bisons"
+        },
+        "mcgill": {
+            "id": "dqm6sqc3xctwt4w20",
+            "name": "McGill Martlets"
+        },
+        "mcmaster": {
+            "id": "dqm6sqc3xctwt4w21",
+            "name": "McMaster Marauders"
+        },
+        "memorial": {
+            "id": "dqm6sqc3xctwt4w22",
+            "name": "Memorial Sea-Hawks"
+        },
+        "moncton": {
+            "id": "dqm6sqc3xctwt4w23",
+            "name": "Moncton Aigles Bleues"
+        },
+        "mount_royal": {
+            "id": "dqm6sqc3xctwt4w24",
+            "name": "Mount Royal Cougars"
+        },
+        "nipissing": {
+            "id": "dqm6sqc3xctwt4w25",
+            "name": "Nipissing Lakers"
+        },
+        "ottawa": {
+            "id": "dqm6sqc3xctwt4w26",
+            "name": "Ottawa Gee-Gees"
+        },
+        "queens": {
+            "id": "dqm6sqc3xctwt4w27",
+            "name": "Queen's Gaels"
+        },
+        "regina": {
+            "id": "dqm6sqc3xctwt4w28",
+            "name": "Regina Cougars"
+        },
+        "ryerson": {
+            "id": "dqm6sqc3xctwt4w29",
+            "name": "Toronto Metropolitan Bold"
+        },
+        "saint_marys": {
+            "id": "dqm6sqc3xctwt4w30",
+            "name": "Saint Mary's Huskies"
+        },
+        "saskatchewan": {
+            "id": "dqm6sqc3xctwt4w31",
+            "name": "Saskatchewan Huskies"
+        },
+        "sherbrooke": {
+            "id": "dqm6sqc3xctwt4w32",
+            "name": "Sherbrooke Vert & Or"
+        },
+        "st_francis_xavier": {
+            "id": "dqm6sqc3xctwt4w33",
+            "name": "St. Francis Xavier X-Women"
+        },
+        "thompson_rivers": {
+            "id": "dqm6sqc3xctwt4w34",
+            "name": "Thompson Rivers WolfPack"
+        },
+        "toronto": {
+            "id": "dqm6sqc3xctwt4w35",
+            "name": "Toronto Varsity Blues"
+        },
+        "trinity_western": {
+            "id": "dqm6sqc3xctwt4w36",
+            "name": "Trinity Western Spartans"
+        },
+        "ubc": {
+            "id": "dqm6sqc3xctwt4w37",
+            "name": "UBC Thunderbirds"
+        },
+        "ubc_okanagan": {
+            "id": "dqm6sqc3xctwt4w38",
+            "name": "UBC Okanagan Heat"
+        },
+        "unbc": {
+            "id": "dqm6sqc3xctwt4w39",
+            "name": "UNBC Timberwolves"
+        },
+        "victoria": {
+            "id": "dqm6sqc3xctwt4w40",
+            "name": "Victoria Vikes"
+        },
+        "waterloo": {
+            "id": "dqm6sqc3xctwt4w41",
+            "name": "Waterloo Warriors"
+        },
+        "western": {
+            "id": "dqm6sqc3xctwt4w42",
+            "name": "Western Mustangs"
+        },
+        "windsor": {
+            "id": "dqm6sqc3xctwt4w43",
+            "name": "Windsor Lancers"
+        },
+        "winnipeg": {
+            "id": "dqm6sqc3xctwt4w44",
+            "name": "Winnipeg Wesmen"
+        },
+        "york": {
+            "id": "dqm6sqc3xctwt4w45",
+            "name": "York Lions"
+        }
+    }
+}
