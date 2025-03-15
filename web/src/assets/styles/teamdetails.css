@@ -18,6 +18,7 @@
   margin-bottom: 2rem;
   border-bottom: 1px solid #333;
   padding-bottom: 1rem;
+  position: relative; /* Added for the active indicator */
 }
 
 .tab-button {
@@ -27,6 +28,8 @@
   cursor: pointer;
   font-size: 1rem;
   color: #aaa;
+  position: relative; /* Added for the active indicator */
+  transition: color 0.3s;
 }
 
 .tab-button.active {
@@ -40,8 +43,8 @@
   bottom: -1rem;
   left: 0;
   right: 0;
-  height: 2px;
-  background-color: white;
+  height: 3px;
+  background-color: #4a90e2; /* Changed to blue for better visibility */
 }
 
 .tab-content {
@@ -52,22 +55,45 @@
   border: 1px solid #333;
 }
 
+/* New simplified team info styles */
 .team-info {
   color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center; /* Center on desktop */
 }
 
 .info-row {
   margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #444;
 }
 
 .info-label {
   font-weight: bold;
   color: #aaa;
   margin-right: 0.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
 }
 
 .info-value {
   color: white;
+  font-size: 1.1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .team-info {
+    text-align: left; /* Left align on mobile */
+    margin: 0; /* Remove centering margin */
+    width: 100%;
+    padding: 0;
+  }
+  
+  .info-row {
+    padding: 0.5rem 0;
+  }
 }
 
 .back-button {
@@ -79,8 +105,17 @@
   border-radius: 4px;
   text-decoration: none;
   color: white;
+  transition: background-color 0.3s;
 }
 
 .back-button:hover {
   background-color: #333;
+}
+
+/* Optional: Add these styles for the other tabs to maintain consistent styling */
+.team-stats,
+.team-roster,
+.team-home {
+  max-width: 800px;
+  margin: 0 auto;
 }

@@ -98,3 +98,30 @@
     font-size: 0.85rem;
   }
 }
+
+.year-selector {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.year-selector label {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.year-selector select {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.no-games-message {
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  color: #6c757d;
+}

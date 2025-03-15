@@ -89,11 +89,22 @@ app.get('/api/standings/:gender', async (req, res) => {
 app.get('/api/teams/:id/schedule', async (req, res) => {
   try {
     const { id } = req.params;
-    const result = await getSchedule(pool, id);
-    res.json(result.rows);
+    const { year } = req.query; // Optional year parameter
+    
+    console.log(`Schedule request for team ${id}, year: ${year || 'current'}`);
+    
+    const scheduleData = await getSchedule(pool, id, year || '2024-25');
+    
+    // Ensure we always return an array
+    if (!Array.isArray(scheduleData)) {
+      console.error(`Non-array schedule data returned for team ${id}`);
+      return res.json([]);
+    }
+    
+    return res.json(scheduleData);
   } catch (err) {
-    console.error('Error:', err);
-    res.status(500).json({ error: 'Failed to fetch schedule' });
+    console.error('Error in schedule endpoint:', err);
+    return res.status(500).json([]);
   }
 });
 

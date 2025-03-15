@@ -8,15 +8,15 @@ const TeamInfo = ({ team }) => (
   <div className="team-info">
     <div className="info-row">
       <span className="info-label">Location:</span>
-      <span className="info-value">{team.city}, {team.province}</span>
+      <span className="info-value">{team.city || 'N/A'}{team.province ? `, ${team.province}` : ''}</span>
     </div>
     <div className="info-row">
       <span className="info-label">Founded:</span>
-      <span className="info-value">{team.founded}</span>
+      <span className="info-value">{team.founded || 'N/A'}</span>
     </div>
     <div className="info-row">
       <span className="info-label">Arena:</span>
-      <span className="info-value">{team.arena}</span>
+      <span className="info-value">{team.arena || 'N/A'}</span>
     </div>
     <div className="info-row">
       <span className="info-label">Capacity:</span>
@@ -24,7 +24,7 @@ const TeamInfo = ({ team }) => (
     </div>
     <div className="info-row">
       <span className="info-label">Conference:</span>
-      <span className="info-value">{team.conference}</span>
+      <span className="info-value">{team.conference || 'N/A'}</span>
     </div>
     {team.division && (
       <div className="info-row">

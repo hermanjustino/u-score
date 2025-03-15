@@ -8,6 +8,10 @@ const TeamSchedule = ({ team }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [selectedYear, setSelectedYear] = useState('2024-25'); // Add year state
+  
+  // Array of available years (add more as needed)
+  const availableYears = ['2024-25', '2023-24', '2022-23'];
 
   // Check for mobile view
   useEffect(() => {
@@ -22,25 +26,82 @@ const TeamSchedule = ({ team }) => {
   useEffect(() => {
     const fetchSchedule = async () => {
       if (!team?.id) return;
+      
+      setLoading(true);
+      setError(null);
+      
       try {
-        const response = await axios.get(`http://localhost:5001/api/teams/${team.id}/schedule`);
-        // Sort games by date (most recent first)
-        const sortedGames = response.data.sort((a, b) => new Date(b.date) - new Date(a.date));
-        setGames(sortedGames);
+        console.log(`Fetching schedule for ${team.university}, year: ${selectedYear}`);
+        
+        // Include year as a query parameter
+        const response = await axios.get(`http://localhost:5001/api/teams/${team.id}/schedule`, {
+          params: { year: selectedYear }
+        });
+        
+        // Check for empty response
+        if (!response.data) {
+          setGames([]);
+          return;
+        }
+        
+        // Check if data is an array
+        const gamesData = Array.isArray(response.data) ? response.data : [];
+        
+        if (gamesData.length === 0) {
+          console.log('No games found in schedule data');
+        } else {
+          console.log(`Received ${gamesData.length} games`);
+          
+          // Sort games by date (most recent first)
+          const sortedGames = gamesData.sort((a, b) => new Date(b.date) - new Date(a.date));
+          setGames(sortedGames);
+        }
       } catch (error) {
         console.error('Error fetching team schedule:', error);
         setError('Failed to load schedule');
+        setGames([]);
       } finally {
         setLoading(false);
       }
     };
 
     fetchSchedule();
-  }, [team?.id]);
+  }, [team?.id, selectedYear]); // Add selectedYear as a dependency
 
+  // Year selector handler
+  const handleYearChange = (e) => {
+    setSelectedYear(e.target.value);
+  };
+  
+  // Year selector component
+  const YearSelector = () => (
+    <div className="year-selector">
+      <label htmlFor="year-select">Season:</label>
+      <select 
+        id="year-select" 
+        value={selectedYear} 
+        onChange={handleYearChange}
+      >
+        {availableYears.map(year => (
+          <option key={year} value={year}>{year}</option>
+        ))}
+      </select>
+    </div>
+  );
+  
   if (loading) return <div>Loading schedule...</div>;
   if (error) return <div className="error-message">{error}</div>;
-  if (!games.length) return <div>No games scheduled</div>;
+  
+  // Show "no games" message if empty
+  if (!games.length) {
+    return (
+      <div className="team-schedule">
+        <h3>{team.varsity_name} Schedule</h3>
+        <YearSelector />
+        <div className="no-games-message">No games scheduled for this season</div>
+      </div>
+    );
+  }
 
   // Group games by month and year
   const groupedGames = games.reduce((acc, game) => {
@@ -66,6 +127,7 @@ const TeamSchedule = ({ team }) => {
     return (
       <div className="team-schedule">
         <h3>{team.varsity_name} Schedule</h3>
+        <YearSelector />
         <table className="schedule-table">
           <thead>
             <tr>
@@ -123,6 +185,7 @@ const TeamSchedule = ({ team }) => {
   return (
     <div className="team-schedule mobile">
       <h3>{team.varsity_name} Schedule</h3>
+      <YearSelector />
       {sortedMonths.map(monthYear => (
         <div key={monthYear} className="month-section">
           <div className="month-header">{monthYear}</div>
