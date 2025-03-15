@@ -164,6 +164,30 @@ app.post('/api/teams/:id/logo', upload.single('logo'), async (req, res) => {
   }
 });
 
+// Get players for a specific team
+app.get('/api/players', async (req, res) => {
+  try {
+    const { teamId } = req.query;
+
+    if (!teamId) {
+      return res.status(400).json({ message: 'Team ID is required' });
+    }
+
+    const query = `
+      SELECT id, first_name, last_name, jersey_number, position, academic_year
+      FROM players
+      WHERE team_id = $1
+    `;
+    const values = [teamId];
+
+    const result = await pool.query(query, values);
+    res.json(result.rows);
+  } catch (err) {
+    console.error('Database error:', err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);

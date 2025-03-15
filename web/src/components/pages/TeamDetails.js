@@ -42,12 +42,61 @@ const TeamStats = () => (
   </div>
 );
 
-const TeamRoster = () => (
-  <div className="team-roster">
-    <h3>Team Roster</h3>
-    <p>Roster coming soon...</p>
-  </div>
-);
+const TeamRoster = ({ team }) => {
+  const [roster, setRoster] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchRoster = async () => {
+      try {
+        setLoading(true);
+        // Fetch players for the team from your API endpoint
+        const response = await axios.get(`http://localhost:5001/api/players?teamId=${team.id}`);
+        setRoster(response.data);
+      } catch (error) {
+        console.error('Error fetching roster:', error);
+        setError(error.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchRoster();
+  }, [team.id]);
+
+  if (loading) return <div>Loading roster...</div>;
+  if (error) return <div>Error: {error}</div>;
+  if (!roster) return <div>No roster data available.</div>;
+
+  return (
+    <div className="team-roster" style={{ textAlign: 'center' }}> {/* Centering the content */}
+      <h3>Team Roster</h3>
+      {roster.length > 0 ? (
+        <table className="roster-table" style={{ margin: '0 auto' }}> {/* Centering the table */}
+          <thead>
+            <tr>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Position</th>
+            </tr>
+          </thead>
+          <tbody>
+            {roster.map(player => (
+              <tr key={player.id}>
+                <td>{player.jersey_number || 'N/A'}</td>
+                <td>{player.first_name} {player.last_name}</td>
+                <td>{player.position || 'N/A'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      ) : (
+        <p>No players in the roster.</p>
+      )}
+    </div>
+  );
+};
 
 const TeamHome = () => (
   <div className="team-home">

@@ -169,22 +169,25 @@ ALTER SEQUENCE public.player_game_stats_id_seq OWNED BY public.player_game_stats
 
 CREATE TABLE public.players (
     id integer NOT NULL,
-    first_name text NOT NULL,
-    last_name text NOT NULL,
+    first_name character varying(100) NOT NULL,
+    last_name character varying(100) NOT NULL,
     team_id integer,
-    jersey_number text,
-    "position" text,
+    jersey_number character varying(10),
+    "position" character varying(20),
     year_of_eligibility integer,
-    hometown text,
+    hometown character varying(100),
     province text,
     height_cm integer,
     weight_kg integer,
-    previous_school text,
+    previous_school character varying(100),
     academic_program text,
     photo_url text,
     is_active boolean DEFAULT true,
     created_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP,
     updated_at timestamp with time zone DEFAULT CURRENT_TIMESTAMP,
+    usports_player_id character varying(100),
+    academic_year character varying(10),
+    height character varying(10),
     CONSTRAINT players_year_of_eligibility_check CHECK (((year_of_eligibility >= 1) AND (year_of_eligibility <= 5)))
 );
 
@@ -483,6 +486,14 @@ ALTER TABLE ONLY public.players
 
 
 --
+-- Name: players players_usports_player_id_key; Type: CONSTRAINT; Schema: public; Owner: hermanjustino
+--
+
+ALTER TABLE ONLY public.players
+    ADD CONSTRAINT players_usports_player_id_key UNIQUE (usports_player_id);
+
+
+--
 -- Name: teams teams_new_pkey; Type: CONSTRAINT; Schema: public; Owner: hermanjustino
 --
 
@@ -504,6 +515,20 @@ ALTER TABLE ONLY public.games
 
 ALTER TABLE ONLY public.teams
     ADD CONSTRAINT unique_varsity_name_gender UNIQUE (varsity_name, gender);
+
+
+--
+-- Name: idx_players_team_id; Type: INDEX; Schema: public; Owner: hermanjustino
+--
+
+CREATE INDEX idx_players_team_id ON public.players USING btree (team_id);
+
+
+--
+-- Name: idx_players_usports_player_id; Type: INDEX; Schema: public; Owner: hermanjustino
+--
+
+CREATE INDEX idx_players_usports_player_id ON public.players USING btree (usports_player_id);
 
 
 --
